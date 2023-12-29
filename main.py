@@ -150,14 +150,18 @@ def collect_column_data_for_file(directory_path, phantom_status_df):
                         "measurement": "hold",
                         "dead_column": dead_column,
                         "first_non_zero_id": first_non_zero_id, 
-                        "Fraction_detected": fraction_detected
+                        "Fraction_detected": fraction_detected,
+
+                        
+
+
 
                     })
     # Close the changes log file
     if log_need :
         changes_log.close()
     result_df = pd.DataFrame(data)
-    result_df.to_csv(directory_path + 'column_overview.tsv', sep="\t",index=False)
+    result_df.to_csv(directory_path + 'column_overview_clean_up.tsv', sep="\t",index=False)
     return result_df
 
 
@@ -215,7 +219,7 @@ def general_column_cleaning(directory_path, colum_overview):
             print("")
 
 
-    colum_overview.to_csv(directory_path + 'column_overview.tsv', index=False)
+    colum_overview.to_csv(directory_path + 'column_overview_clean_up.tsv', index=False)
     #print(colum_overview)
 
 
@@ -236,7 +240,7 @@ def main(floder_location):
     alphabet_list_index = 0
 
     phantom_df = phantom_recipe_check(group_folder_location)
-    current_column_overview = collect_column_data_for_file(group_folder_location + "A-Z\\" +alphabet_list[alphabet_list_index] + "\\", phantom_df)
+    current_column_overview = collect_column_data_for_file(group_folder_location + "A-Z\\" +alphabet_list[alphabet_list_index] + "\\data\\", phantom_df)
     #general_column_cleaning(group_folder_location + "A-Z\\" +alphabet_list[alphabet_list_index] + "\\", current_column_overview)
 
 

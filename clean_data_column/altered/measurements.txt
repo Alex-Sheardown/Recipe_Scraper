@@ -1,0 +1,124 @@
+
+# tested
+tablespoon
+teaspoon_pattern
+oz_pattern
+fl_oz
+cup
+qt
+pint
+gallon
+lb
+mL
+g
+kg
+
+drop
+dash
+dab
+dl
+squeeze
+clove
+few
+handful
+
+bunch
+pinch
+pats
+piece
+
+#Not tested
+#find pattern not added to find_measurments(ingredient_string, measurement)
+
+little_pattern 
+sprigs
+knob
+bit
+cl
+slice
+can 
+
+#31
+
+#Small Amounts:
+
+drop_glass
+
+#Quantity Measurements:
+
+jar
+nest_of_
+no.
+pots_of_
+pot
+gr
+servings
+stalk
+stick
+
+#39
+#Weight Measurements:
+
+kg of
+log_of_
+leg_of_
+kilo
+
+#Miscellaneous Measurements:
+
+Cuts and Slices:
+
+sheet_of
+strips_of_
+#Shapes and Sizes:
+brick_
+diam.12_cm-_
+height_3.5_cm
+
+
+tiles_of_
+
+#50
+#Quantity or Portion:
+some
+punnet_
+pkg_
+_packs
+times
+x_
+
+#Degree of Thickness/Amount:
+very_little
+
+#Miscellaneous Descriptions:
+according_to_your_tastes
+/person
+
+#Units of Measure:
+heaping_spoonful
+
+#60
+medium_
+
+_weighing
+_cm
+
+qt
+qs
+qq
+
+_cm_in_diameter
+
+
+Miscellaneous:
+tb_
+tbsp._to_c.
+tbsp._to_s.
+tsp._to_c.
+tbsp._teaspoon
+volume_
+v
+_cut_in_half
+measure_of_melted_
+1cm/2cm
+q.s.p_

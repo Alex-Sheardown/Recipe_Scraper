@@ -1,0 +1,486 @@
+original,portion,altered,modifier
+0_tablespoons_of olive oil,0,olive oil,table_spoons
+1 tbsp of sugar, 1,sugar,table_spoons
+3 TBSP of soy sauce, 3,soy sauce,table_spoons
+4 tbspoons of flour, 4,flour,table_spoons
+5 tblsp of salt, 5,salt,table_spoons
+6 tbspn of honey, 6,honey,table_spoons
+7 tbsp. of vinegar, 7,vinegar,table_spoons
+8 tbsps of ketchup, 8,ketchup,table_spoons
+9 tbspns of mayonnaise, 9,mayonnaise,table_spoons
+10 tbspoons of mustard, 10,mustard,table_spoons
+11 tblsp of Worcestershire sauce, 11,worcestershire sauce,table_spoons
+12 tbspn. of peanut butter, 12,peanut butter,table_spoons
+13 table spoons of cream cheese, 13,cream cheese,table_spoons
+14 table spoonsful of whipped cream, 14,whipped cream,table_spoons
+15_tablespoons_of olive oil, 15,olive oil,table_spoons
+16_tbsp of sugar, 16,sugar,table_spoons
+17_tbs.p.oon.s of soy sauce, 17,soy sauce,table_spoons
+18_tbs_o_o_n_s of flour, 18,flour,table_spoons
+19_t_b.l_sp of salt, 19,salt,table_spoons
+20_t_b_spoon_s of honey, 20,honey,table_spoons
+21_tb_spn of vinegar, 21,vinegar,table_spoons
+22_tb_s_p_s of ketchup, 22,ketchup,table_spoons
+23_tbspns_of mayonnaise, 23,mayonnaise,table_spoons
+24_tbsp_o_ons of mustard, 24,mustard,table_spoons
+25_tbl_s.p of Worcestershire sauce, 25,worcestershire sauce,table_spoons
+26_t_b_l_sp. of peanut butter, 26,peanut butter,table_spoons
+27_table_ spoons of cream cheese, 27,cream cheese,table_spoons
+28_table_spoonss_ful of whipped cream, 28,whipped cream,table_spoons
+a tablespoon of something, 1,something,table_spoons
+1 - 9 tablespoon cat, 5,cat,table_spoons
+
+1 teaspoon of salt, 1,salt,tea_spoons
+2 tsps of sugar, 2,sugar,tea_spoons
+3 TSPs of cinnamon, 3,cinnamon,tea_spoons
+4 tsp of vanilla extract, 4,vanilla extract,tea_spoons
+5 tsps of lemon juice, 5,lemon juice,tea_spoons
+6 Tsp of baking powder, 6,baking powder,tea_spoons
+7_Tsp_of baking powder, 7,baking powder,tea_spoons
+8_tsps_of_lemon juice, 8,lemon juice,tea_spoons
+9_tea_spoons of salt, 9,salt,tea_spoons
+10_tsp.s of sugar, 10,sugar,tea_spoons
+11_T.S.P_s of cinnamon, 11,cinnamon,tea_spoons
+12_tsp of vanilla extract, 12,vanilla extract,tea_spoons
+13_tsp_s of lemon juice, 13,lemon juice,tea_spoons
+14_Tsp of baking powder, 14,baking powder,tea_spoons
+15_Tsp_of baking powder, 15,baking powder,tea_spoons
+16_tsps_of_lemon juice, 16,lemon juice,tea_spoons
+17 teaspoon of salt, 17,salt,tea_spoons
+18_tsp of sugar, 18,sugar,tea_spoons
+19_ts of cinnamon, 19,cinnamon,tea_spoons
+20_t.s.p of flour, 20,flour,tea_spoons
+21 t s of pepper, 21,pepper,tea_spoons
+22_t_s. of honey, 22,honey,tea_spoons
+23 t_spoons of vinegar, 23,vinegar,tea_spoons
+24_tea_s.p_s of ketchup, 24,ketchup,tea_spoons
+25 t.s of mayonnaise, 25,mayonnaise,tea_spoons
+26 teaspoons of mustard,26,mustard,tea_spoons
+27 t.s of Worcestershire sauce, 27,worcestershire sauce,tea_spoons
+28_tspn of peanut butter, 28,peanut butter,tea_spoons
+29_t.s of cream cheese, 29,cream cheese,tea_spoons
+30 t_spoonsful of whipped cream, 30,whipped cream,tea_spoons
+31_ts of olive oil, 31,olive oil,tea_spoons
+32_tsp of sugar, 32,sugar,tea_spoons
+33_ts.p.oon.s of soy sauce, 33,soy sauce,tea_spoons
+34_tsp_o_o_n_s of flour, 34,flour,tea_spoons
+35_tea_s.p of salt, 35,salt,tea_spoons
+36 t.spoon_s of honey, 36,honey,tea_spoons
+37_t.s.pn of vinegar, 37,vinegar,tea_spoons
+38 tsp_s_p_s of ketchup, 38,ketchup,tea_spoons
+39_t.spoons of mayonnaise, 39,mayonnaise,tea_spoons
+40_t.spoons of mustard, 40,mustard,tea_spoons
+41_t.s of Worcestershire sauce, 41,worcestershire sauce,tea_spoons
+42 tspn. of peanut butter, 42,peanut butter,tea_spoons
+43 ts.p. of cream cheese, 43,cream cheese,tea_spoons
+44_t.spoonsful of whipped cream, 44,whipped cream,tea_spoons
+a teaspoon of whatever, 1,whatever,tea_spoons
+
+1 ounce of chocolate chips, 1,chocolate chips,ounces
+2 oz of almondsm, 2,almondsm,ounces
+3 OZs of cheese, 3,cheese,ounces
+4 ozs of pasta, 4,pasta,ounces
+5 ounce of butter, 5,butter,ounces
+6 Oz of cream, 6,cream,ounces
+7_ounce_of butter, 7,butter,ounces
+8_Oz_of cream, 8,cream,ounces
+9_ounce_of chocolate chips, 9,chocolate chips,ounces
+10_oz of almonds, 10,almonds,ounces
+11_OZs of cheese, 11,cheese,ounces
+12_ozs of pasta, 12,pasta,ounces
+13_ounce of butter, 13,butter,ounces
+14_Oz of cream, 14,cream,ounces
+15_ounce_of butter, 15,butter,ounces
+16_Oz_of cream, 16,cream,ounces
+an ounce, 1,,ounces
+
+1 fl oz of vanilla extract, 1,vanilla extract,fluid_ounces
+2 fluid ounces of lemon juice, 2,lemon juice,fluid_ounces
+3 fl. oz of almond milk, 3,almond milk,fluid_ounces
+4 fluid ounces of orange juice, 4,orange juice,fluid_ounces
+5 fl. oz of rum, 5,rum,fluid_ounces
+6_fluid_ounces of orange juice, 6,orange juice,fluid_ounces
+7_fl._oz_of rum, 7,rum,fluid_ounces
+8_fl oz_of vanilla extract, 8,vanilla extract,fluid_ounces
+9_fluid ounces_of lemon juice, 9,lemon juice,fluid_ounces
+10_fl. oz_of almond milk, 10,almond milk,fluid_ounces
+11_fluid ounces_of orange juice, 11,orange juice,fluid_ounces
+12_fl oz_of rum, 12,rum,fluid_ounces
+13_fluid_ounces_of orange juice, 13,orange juice,fluid_ounces
+14_fl._oz_of rum, 14,rum,fluid_ounces
+a fluid ounce, 1,,fluid_ounces
+
+1 cup of flour, 1,flour,cups
+2 cups of sugar, 2,sugar,cups
+3 c of milk, 3,milk,cups
+4 c. of diced tomatoes, 4,diced tomatoes,cups
+5 cups of water, 5,water,cups
+6_c._of diced tomatoes, 6,diced tomatoes,cups
+7_cups_of water, 7,water,cups
+8_cup_of flour, 8,flour,cups
+9_cups_of sugar, 9,sugar,cups
+10_c of milk, 10,milk,cups
+11_c. of diced tomatoes, 11,diced tomatoes,cups
+12_cups_of water, 12,water,cups
+13_c._of diced tomatoes, 13,diced tomatoes,cups
+14_cups_of water, 14,water,cups
+a cup of whatever, 1,whatever,cups
+
+1 quart of milk, 1,milk,quarts
+2 qts of soup, 2,soup,quarts
+3 QTs of apple juice, 3,apple juice,quarts
+4 qt of tomato sauce, 4,tomato sauce,quarts
+5 quarts of water, 5,water,quarts
+6_qt_of tomato sauce, 6,tomato sauce,quarts
+7_quarts_of water, 7,water,quarts
+8_quart_of milk, 8,milk,quarts
+9_qts_of soup, 9,soup,quarts
+10_QTs_of apple juice, 10,apple juice,quarts
+11_qt_of tomato sauce, 11,tomato sauce,quarts
+12_quarts_of water, 12,water,quarts
+13_qt_of tomato sauce, 13,tomato sauce,quarts
+14_quarts_of water, 14,water,quarts
+a quart of something, 1,something,quarts
+1 - 7 quart, 4,,quarts
+
+1 pint of strawberries, 1,strawberries,pints
+2 pts of cream, 2,cream,pints
+3 PTs of milk, 3,milk,pints
+4 pt of chicken broth, 4,chicken broth,pints
+5 pints of water, 5,water,pints
+6_pt_of chicken broth, 6,chicken broth,pints
+7_pints_of water, 7,water,pints
+8_pints_of water, 8,water,pints
+9_PTs_of tomato soup, 9,tomato soup,pints
+10_pint_of heavy cream, 10,heavy cream,pints
+11_pts_of chocolate sauce, 11,chocolate sauce,pints
+12_PT_of chicken stock, 12,chicken stock,pints
+13_pt_of chicken broth, 13,chicken broth,pints
+a pint of something, 1,something,pints
+a few pints of whatever, 3,whatever,pints
+1 to 7 pint, 4,,pints
+1-11 pt, 6 ,,pints
+1.5 - 4.5 pint, 3,,pints
+
+1 gallon of milk, 1,milk,gallons
+2 gals of water, 2,water,gallons
+3 gal of apple juice, 3,apple juice,gallons
+4 gals. of vinegar, 4,vinegar,gallons
+5 gallons of olive oil, 5,olive oil,gallons
+6_gals._of vinegar, 6,vinegar,gallons
+7_gallons_of olive oil, 7,olive oil,gallons
+8_gals_of vinegar, 8,vinegar,gallons
+9_gallon_of orange juice, 9,orange juice,gallons
+10_gals. of vegetable oil, 10,vegetable oil,gallons
+11 gallons of soy sauce, 11,soy sauce,gallons
+12_GAL_of chocolate syrup, 12,chocolate syrup,gallons
+13_GALS_of mayonnaise, 13,mayonnaise,gallons
+a gallon of something, 1,something,gallons
+
+1 pound of beef, 1,beef,lbs
+2 lbs of chicken, 2,chicken,lbs
+3 lb of pork, 3,pork,lbs
+4 lbs. of salmon, 4,salmon,lbs
+5 pounds of shrimp, 5,shrimp,lbs
+6_lbs. of salmon, 6,salmon,lbs
+7_pounds of shrimp, 7,shrimp,lbs
+8_pound_of butter, 8,butter,lbs
+9_lbs of ground beef, 9,ground beef,lbs
+10 lbs. of chicken thighs, 10,chicken thighs,lbs
+11 pound of turkey, 11,turkey,lbs
+12_lbs_of pork belly, 12,pork belly,lbs
+13_pounds_of bacon, 13,bacon,lbs
+a pound of something, 1,something,lbs
+
+1 milliliter of vanilla extract, 1,vanilla extract,milli_liters
+2 mLs of lemon juice, 2,lemon juice,milli_liters
+3 mL of soy sauce, 3,soy sauce,milli_liters
+4 mLs. of vinegar, 4,vinegar,milli_liters
+5 milliliters of olive oil, 5,olive oil,milli_liters
+6_mLs._of vinegar, 6,vinegar,milli_liters
+7_milliliters_of olive oil, 7,olive oil,milli_liters
+8_mL_of water, 8,water,milli_liters
+9_mLs_of orange juice, 9,orange juice,milli_liters
+10_mLs._of vanilla_extract, 10,vanilla extract,milli_liters
+11_milliliters_of soy_sauce, 11,soy sauce,milli_liters
+12_mL_of lemon_juice, 12,lemon juice,milli_liters
+13_mLs_of milk, 13,milk,milli_liters
+14_mLs._of vinegar, 14,vinegar,milli_liters
+a ml of whatever, 1,whatever,milli_liters
+
+1 gram of salt, 1,salt,grams
+2 gs of sugar, 2,sugar,grams
+3 g of cinnamon, 3,cinnamon,grams
+4 gs. of flour, 4,flour,grams
+5 grams of pepper, 5,pepper,grams
+6_gs._of flour, 6,flour,grams
+7_grams_of pepper, 7,pepper,grams
+8_grams_of sugar, 8,sugar,grams
+9_gs_of flour, 9,flour,grams
+10_g_of salt, 10,salt,grams
+11_gs. of chocolate, 11,chocolate,grams
+12_grams of spices, 12,spices,grams
+13_gs._of herbs, 13,herbs,grams
+14_grams_of pepper, 14,pepper,grams
+15 grams of sugar, 15,sugar,grams
+16 g of flour, 16,flour,grams
+17 gs of salt, 17,salt,grams
+18 g.s of chocolate chips, 18,chocolate chips,grams
+19 gs. of almonds, 19,almonds,grams
+20 gram of salt, 20,salt,grams
+21 gs of sugar, 21,sugar,grams
+22 g of cinnamon, 22,cinnamon,grams
+23 gs. of flour, 23,flour,grams
+24 grams of pepper, 24,pepper,grams
+25_gs._of flour, 25,flour,grams
+26_grams_of pepper, 26,pepper,grams
+27_grams_of_sugar, 27,sugar,grams
+28_g_of_flour, 28,flour,grams
+29_gs_of_salt, 29,salt,grams
+30_g.s_of_chocolate_chips, 30,chocolate chips,grams
+31_gs.of_almonds, 31,almonds,grams
+32_grams_of_sugar, 32,sugar,grams
+33_grams of_sugar, 33,sugar,grams
+34 grams_of_sugar, 34,sugar,grams
+a gram of something, 1,something,grams
+
+1 kilogram of rice, 1,rice,kilo_grams
+2 kgs of sugar, 2,sugar,kilo_grams
+3 kg of flour, 3,flour,kilo_grams
+4 kgs. of chocolate, 4,chocolate,kilo_grams
+5 kilograms of pasta, 5,pasta,kilo_grams
+6_kg_of spices, 6,spices,kilo_grams
+7_kgs_of herbs, 7,herbs,kilo_grams
+8 kilograms of meat, 8,meat,kilo_grams
+9 kg of vegetables, 9,vegetables,kilo_grams
+10 kgs. of seafood, 10,seafood,kilo_grams
+11_kg_of nuts, 11,nuts,kilo_grams
+12_kgs_of beans, 12,beans,kilo_grams
+a kg of something, 1,something,kilo_grams
+
+1_liter_of milk, 1,milk,liter
+2 ls of water, 2,water,liter
+3 l of apple juice, 3,apple juice,liter
+4 ls. of vinegar, 4,vinegar,liter
+5 liters of olive oil, 5,olive oil,liter
+6_ls._of vinegar, 6,vinegar,liter
+7_liters_of olive oil, 7,olive oil,liter
+8 liters of soda, 8,soda,liter
+9 liters of orange juice, 9,orange juice,liter
+10_l_of milk, 10,milk,liter
+11_l_of water, 11,water,liter
+12_l_of apple juice, 12,apple juice,liter
+13_l_of vinegar, 13,vinegar,liter
+14_l_of olive oil, 14,olive oil,liter
+15_ls._of vinegar, 15,vinegar,liter
+16_liters_of olive oil, 16,olive oil,liter
+17_l._of water, 17,water,liter
+18_liters_of soda, 18,soda,liter
+19_ls._of orange juice, 19,orange juice,liter
+20_liters_of milk, 20,milk,liter
+a liter of something, 1,something,liter
+
+1_drop_of_vanilla_extract, 1,vanilla extract,drops
+2_drops_of_lemon_juice, 2,lemon juice,drops
+3_drops_of_almond_extract, 3,almond extract,drops
+4_drops_of_peppermint_oil, 4,peppermint oil,drops
+5_drops_of_food_coloring, 5,food coloring,drops
+6_drops_of_rosewater, 6,rosewater,drops
+7_drops_of_lavender_oil, 7,lavender oil,drops
+a drop of something, 1,something,drops
+
+1_dash_of_salt, 1,salt,dashes
+2_dashes_of_pepper, 2,pepper,dashes
+a dash of something, 1,something,dashes
+
+1_dab_of_butter, 1,butter,dabs
+2_dabs_of_butter, 2,butter,dabs
+a dab, 1,,dabs
+
+1_dl_of_milk, 1,milk,deciliter
+2_dls_of_water, 2,water,deciliter
+a dl of something, 1,something,deciliter
+3 deciliter of toast,3,toast,deciliter
+a few deciliters of joy,3,joy,deciliter
+
+1_squeeze_of_lemon_juice, 1,lemon juice,squeezes
+2_squeezes_of_lime_juice, 2,lime juice,squeezes
+a squeeze of something, 1,something,squeezes
+
+1_clove_of_garlic, 1,garlic,cloves
+2_cloves_of_garlic, 2,garlic,cloves
+a clove of something, 1,something,cloves
+
+1_sprig_of_rosemary, 1,rosemary,sprigs
+2_sprigs_of_rosemary, 2,rosemary,sprigs
+a sprig of something, 1,something,sprigs
+
+1_handful_of_spinach_leaves, 1,spinach leaves,handfuls
+2_handfuls_of_almonds, 2,almonds,handfuls
+a handful of something, 1,something,handfuls
+
+1_bunch_of_bananas, 1,bananas,bunches
+2_bunches_of_grapes, 2,grapes,bunches
+a bunch of something, 1,something,bunches
+
+1_pinch_of_salt, 1,salt,pinches
+2_pinches_of_pepper, 2,pepper,pinches
+a pinch of something, 1,something,pinches
+
+1_pat_of_butter, 1,butter,pats
+2_pats_of_margarine, 2,margarine,pats
+a pat of something, 1,something,pats
+
+1_piece_of_chicken, 1,chicken,pieces
+2_pieces_of_fish, 2,fish,pieces
+a piece of something, 1,something,pieces
+
+
+Add a knob of butter to the hot pan, 1,butter,knobs
+She used two knobs of cheese for the sandwich, 2,cheese,knobs
+The recipe calls for a knob of ginger, 1,recipe calls ginger,knobs
+He added a knob of honey to his tea, 1,honey,knobs
+A knob of cream can enhance the flavor of the soup,  1,cream,knobs
+
+1 bit of chocolate, 1,chocolate,bits
+2 bits of garlic, 2,garlic,bits
+a bit of something, 1,something,bits
+
+1 cL of lemon juice, 1,lemon juice,centiliters
+2 cL of red wine, 2,red wine,centiliters
+a cl of something, 1,something,centiliters
+3 centiliter of something,3,something,centiliters
+
+1 slice of bread, 1,bread,slices
+2 slices of cheese, 2,cheese,slices
+a slice of something, 1,something,slices
+
+1 can of tomatoes, 1,tomatoes,cans
+2 cans of corn, 2,corn,cans
+a can of mushrooms, 1,mushrooms,cans
+2 x 160g cans tuna steak in spring water,-1,2 x 160g tuna steak in spring water,cans
+
+1 drop glass of vanilla extract, 1,vanilla extract,drop_glasses
+2 drop glasses of lemon juice, 2,lemon juice,drop_glasses
+a drop glass of something, 1,something,drop_glasses
+
+1 jar of peanut butter, 1,peanut butter,jars
+2 jars of pickles, 2,pickles,jars
+a jar of something, 1,something,jars
+
+1 nest of spaghetti, 1,spaghetti,nests
+2 nests of angel hair pasta, 2,angel hair pasta,nests
+a nest of something, 1,something,nests
+
+Add 2 no. red bell peppers diced., 2,red bell peppers diced,no.s
+Use 3 no. tomatoes chopped., 3,tomatoes chopped,no.s
+
+1 pot of herbs and spices, 1,herbs and spices,pots
+2 pots of chicken stock, 2,chicken stock,pots
+a pot of something, 1,something,pots
+
+
+1 serving of vegetable curry, 1,vegetable curry,servings
+4 servings of spaghetti, 4,spaghetti,servings
+a serving of something, 1,something,servings
+
+1 stalk of lemongrass, 1,lemongrass,stalks
+2 stalks of celery, 2,celery,stalks
+a stalk of something, 1,something,stalks
+
+1 stick of butter, 1,butter,sticks
+2 sticks of cinnamon, 2,cinnamon,sticks
+a stick of something, 1,something,sticks
+
+0.5 kg of chicken breast, 0.5,chicken breast,kilo_grams
+1 kg of potatoes, 1,potatoes,kilo_grams
+1.5 kg of beef, 1.5,beef,kilo_grams
+2 kgs of onions, 2,onions,kilo_grams
+a kg of something, 1,something,kilo_grams
+1 kilo of flour, 1,flour,kilo_grams
+2 kilos of sugar, 2,sugar,kilo_grams
+a kilo of something, 1,something,kilo_grams
+
+1 log of goat cheese, 1,goat cheese,logs
+2 logs of cream cheese, 2,cream cheese,logs
+a log of something, 1,something,logs
+
+1 leg of lam, 1,lam,legs
+2 legs of_chicken, 2,chicken,legs
+a leg of something, 1,something,legs
+
+1 sheet of puff pastry, 1,puff pastry,sheets
+2 sheets of lasagna noodles, 2,lasagna noodles,sheets
+a sheet of something, 1,something,sheets
+
+1 strip of bacon, 1,bacon,strips
+2 strips of lemon zest, 2,lemon zest,strips
+
+1 brick of cream cheese, 1,cream cheese,bricks
+2 bricks of tofu, 2,tofu,bricks
+
+10 cm in diameter of pizza dough, -1,10 cm pizza dough,diams
+A pizza crust with a 12-inch diameter, -1,pizza crust 12 inch,diams
+Use a cookie cutter with a 2-inch diameter, -1,cookie cutter 2 inch,diams
+Make cookies that are 3 cm in diameter, -1,make cookies that are 3 cm,diams
+Create mini pies with a 4-inch diameter, -1,mini pies 4 inch,diams
+Form the meatballs into 1-inch diameter rounds, -1,meatballs 1 inch rounds,diams
+Cut the biscuits into 5 cm diameter circles, -1,cut biscuits 5 cm circles,diams
+Roll the tortillas to a 10-inch diameter, -1,roll tortillas 10 inch,diams
+Shape the bread into a 6-inch diameter loaf, -1,6 inch loaf,diams
+
+A cake with 3-inches height, -1,cake 3 inches,heights
+Layer the lasagna to a 2-inch height, -1,lasagna 2 inch,heights
+Roll the dough to a 1/4-inch height, -1,roll dough 1/4 inch,heights
+Add frosting to a 1/2-inch height, -1,frosting 1/2 inch,heights
+Shape the doughnuts to a 2-inch height, -1,doughnuts 2 inch,heights
+Stack pancakes with a 1-inch height, -1,pancakes 1 inch,heights
+Create a pie with a 2.5-inch height, -1,pie 2.5 inch,heights
+Roll out fondant to a 1/8-inch height, -1,roll out fondant 1/8 inch,heights
+Cut brownies into 2-inch squares in height, -1,cut brownies 2 inch squares,heights
+
+Lay 1 tile of cheese on the pizza, 1,cheese,tiles
+Decorate the cake with chocolate tiles, -1,chocolate,tiles
+Arrange 6 tiles of smoked salmon on the platter, 6,smoked salmon,tiles
+
+Add some cheese to taste., -1,cheese taste,somes
+
+Add a punnet of fresh berries to the fruit salad., 1,fresh berries fruit salad,punnets
+
+Use one pkg of spaghetti noodles for the pasta dish., 1,spaghetti noodles pasta dish,pkgs
+Use a package of taco shells for assembling tacos., 1,taco shells,pkgs
+Top with one pack of shredded mozzarella cheese., 1,shredded mozzarella cheese,pkgs
+
+You'll need 1 qq of fresh strawberries for the dessert., 1,fresh strawberries,qqs
+Measure out 3 qq of chicken broth for the soup., 3,chicken broth,qqs
+6 quintals of food,6,food,qqs
+1 quintal of food,1,food,qqs
+
+
+1-inch-thick steak, 1,steak,inchs
+Cut the potatoes into an inch cubes, 1,cut potatoes cubes,inchs
+Add a 2-inch-long piece of vanilla bean, 2,vanilla bean,inchs
+
+1-centimeters-thick steak, 1,steak,cms
+Cut the potatoes into an cm cubes, 1,cut potatoes cubes,cms
+Add a 2-cm-long piece of vanilla bean, 2,vanilla bean,cms
+
+
+prepare one chicken breast per person for the main course., -1,prepare 1 chicken breast,per_persons
+You'll need one egg per person to make the omelette., -1,1 egg omelette,per_persons
+Use two potatoes per person for a generous serving of mashed potatoes., -1,2 potatoes mashed potatoes,per_persons
+
+Add a heaping spoonful of sugar to sweeten the tea., 1,sugar,heaping_spoonfuls
+
+
+
+2 packet (1 oz | 28 g | about 3 tablespoons) taco seasoning, 2,(1 oz | 28 g | 3 tablespoons) taco seasoning,pkgs
+1 packet (1 oz | 28 g | about 3 tablespoons) taco seasoning, 1,1 packet ( | 28 g | 3 tablespoons) taco seasoning,ounces
+1 packet (1 oz | 28 g | about 3 tablespoons) taco seasoning, 28,1 packet (1 oz | | 3 tablespoons) taco seasoning,grams
+1 packet (1 oz | 28 g | about 3 tablespoons) taco seasoning, 3,1 packet (1 oz | 28 g | ) taco seasoning,table_spoons
+
+1 packet (1 oz | 28 g | about 3 tablespoons) taco seasoning, 3,(1 oz | 28 g | ) taco seasoning,table_spoons
+1 packet (1 oz | 28 g | about 3 tablespoons) taco seasoning, 1,( | 28 g | ) taco seasoning,ounces
+1 packet (1 oz | 28 g | about 3 tablespoons) taco seasoning, 28,( | | ) taco seasoning,grams
+
+3 no. dollars yum,3,not sure,no.s
