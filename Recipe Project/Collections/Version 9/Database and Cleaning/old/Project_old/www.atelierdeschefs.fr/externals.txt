@@ -1,0 +1,15 @@
+2: https://www.facebook.com/atelierdeschefs
+8: https://info.atelierdeschefs.fr/cap-cuisine
+9: https://info.atelierdeschefs.fr/cap-patissier
+10: https://info.atelierdeschefs.fr/cap-boulanger
+11: https://info.atelierdeschefs.fr/certification-haccp
+12: https://info.atelierdeschefs.fr/cap-coiffure
+16: https://info.atelierdeschefs.fr/formation-restaurateur
+37: https://tbc.atelierdeschefs.fr/nos-offres
+39: https://pro.atelierdeschefs.com/fr/conseil
+40: https://pro.atelierdeschefs.com/fr/evenementiel
+41: https://pro.atelierdeschefs.com/fr/formation
+47: https://drive.google.com/file/d/1qeo0S70Ni4D-I3wlbsWdpOR87S3gVWEc/view
+50: https://info.atelierdeschefs.fr/cap-esthetique-cosmetique-parfumerie
+55: https://critizr.com/widgets/latelier-des-chefs/53/
+747: http://www.atelierdeschefs.net/blog/
