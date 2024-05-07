@@ -1,0 +1,2586 @@
+[
+    {
+        "name": "fine_and_amora",
+        "pattern": "\\s*fine\\s*and\\s*amora"
+    },
+    {
+        "name": "a_little_grated_peel",
+        "pattern": "\\s*a\\s*little\\s*grated\\s*peel"
+    },
+    {
+        "name": "not",
+        "pattern": "\\bnot\\b"
+    },
+    {
+        "name": "too",
+        "pattern": "\\s*too\\b"
+    },
+    {
+        "name": "freeze",
+        "pattern": "\\s*freeze\\b"
+    },
+    {
+        "name": "purchased",
+        "pattern": "\\s*purchased\\b"
+    },
+    {
+        "name": "just",
+        "pattern": "\\s*just\\b"
+    },
+    {
+        "name": "without_the_white",
+        "pattern": "\\s*without\\s*the\\s*white"
+    },
+    {
+        "name": "without_the_skin",
+        "pattern": "\\s*without\\s*(the)?\\s*skin\\b"
+    },
+    {
+        "name": "without_anti_caking_agent",
+        "pattern": "\\s*without\\s*anti\\s*caking\\s*agent\\b"
+    },
+    {
+        "name": "without",
+        "pattern": "\\s*without\\b"
+    },
+    {
+        "name": "nice",
+        "pattern": "\\s*nice\\b"
+    },
+    {
+        "name": "preferably",
+        "pattern": "\\s*(preferably|preferable)\\b"
+    },
+    {
+        "name": "mini",
+        "pattern": "\\s*mini\\b"
+    },
+    {
+        "name": "small",
+        "pattern": "\\s*small\\b"
+    },
+    {
+        "name": "little",
+        "pattern": "\\s*little\\b"
+    },
+    {
+        "name": "medium",
+        "pattern": "\\b(medium|med)\\b"
+    },
+    {
+        "name": "large",
+        "pattern": "\\s*large\\b"
+    },
+    {
+        "name": "plump",
+        "pattern": "\\s*plump\\b"
+    },
+    {
+        "name": "ripe",
+        "pattern": "\\s*ripe\\b"
+    },
+    {
+        "name": "overripe",
+        "pattern": "\\s*overripe\\b"
+    },
+    {
+        "name": "only_the_leaves",
+        "pattern": "\\s*only\\s*the\\s*leaves\\s*are\\s*used"
+    },
+    {
+        "name": "sweet",
+        "pattern": "\\s*sweet\\b"
+    },
+    {
+        "name": "natural",
+        "pattern": "\\s*natural\\b"
+    },
+    {
+        "name": "quality",
+        "pattern": "\\s*quality\\b"
+    },
+    {
+        "name": "new",
+        "pattern": "\\s*new\\b"
+    },
+    {
+        "name": "organic",
+        "pattern": "\\s*organic\\b"
+    },
+    {
+        "name": "frozen",
+        "pattern": "\\s*(previously)?\\s*frozen\\b"
+    },
+    {
+        "name": "matured",
+        "pattern": "\\s*matured?\\b"
+    },
+    {
+        "name": "seeded",
+        "pattern": "\\s*seeded\\b"
+    },
+    {
+        "name": "pitted",
+        "pattern": "\\s*pitted\\b"
+    },
+    {
+        "name": "shavings",
+        "pattern": "\\s*shavings\\b"
+    },
+    {
+        "name": "raw",
+        "pattern": "\\s*raw\\b"
+    },
+    {
+        "name": "soft",
+        "pattern": "\\s*(slightly)?\\s*soft\\b"
+    },
+    {
+        "name": "dried",
+        "pattern": "\\s*dried\\b"
+    },
+    {
+        "name": "spicy",
+        "pattern": "\\s*spicy\\b"
+    },
+    {
+        "name": "creamy",
+        "pattern": "\\s*creamy\\b"
+    },
+    {
+        "name": "fragrant",
+        "pattern": "\\s*fragrant\\b"
+    },
+    {
+        "name": "stale",
+        "pattern": "\\s*stale\\b"
+    },
+    {
+        "name": "strong",
+        "pattern": "\\s*strong\\b"
+    },
+    {
+        "name": "light",
+        "pattern": "\\blight\\b"
+    },
+    {
+        "name": "heavy",
+        "pattern": "\\s*heavy\\b"
+    },
+    {
+        "name": "crystallized",
+        "pattern": "\\s*crystallized\\b"
+    },
+    {
+        "name": "untreated",
+        "pattern": "\\s*untreated\\b"
+    },
+    {
+        "name": "unpeeled",
+        "pattern": "\\s*unpeeled\\b"
+    },
+    {
+        "name": "lightly_sweetened",
+        "pattern": "\\s*lightly\\s*sweetened"
+    },
+    {
+        "name": "lightly_refined",
+        "pattern": "\\s*(lightly)?\\s*refined"
+    },
+    {
+        "name": "unrefined",
+        "pattern": "\\s*unrefined\\b"
+    },
+    {
+        "name": "degerminated",
+        "pattern": "\\s*deger(minated|med)\\b"
+    },
+    {
+        "name": "defatted",
+        "pattern": "\\s*defatted\\b"
+    },
+    {
+        "name": "desalinated",
+        "pattern": "\\s*desalinated\\b"
+    },
+    {
+        "name": "deboned",
+        "pattern": "\\s*deboned\\b"
+    },
+    {
+        "name": "rinsed",
+        "pattern": "\\s*rinsed\\b"
+    },
+    {
+        "name": "skewered",
+        "pattern": "\\s*skewered\\b"
+    },
+    {
+        "name": "on_the_bone",
+        "pattern": "\\s*on\\s*the\\s*bone\\b"
+    },
+    {
+        "name": "naturally",
+        "pattern": "\\s*naturally"
+    },
+    {
+        "name": "crushed",
+        "pattern": "\\s*crushed\\b"
+    },
+    {
+        "name": "season",
+        "pattern": "\\s*(in)?\\s*season(al)?\\b"
+    },
+    {
+        "name": "\n        in_season_pattern = r'In '#season\n        if_in_season_pattern = r'If it's in season'\n        seasonal_pattern = r'Seasonal'\n        sweet",
+        "pattern": "\\s*(not\\s*to)?\\s*ripe\\b"
+    },
+    {
+        "name": "phosphate_free",
+        "pattern": "\\s*phosphate\\s*free\\b"
+    },
+    {
+        "name": "milk_free",
+        "pattern": "\\s*milk\\s*free"
+    },
+    {
+        "name": "molds_with_removable_bases",
+        "pattern": "\\s*trees?\\s*molds?\\s*with\\s*the?\\s*removable?\\s*base\\b"
+    },
+    {
+        "name": "sold_in_bags",
+        "pattern": "\\s*sold\\s*in\\s*bags\\b"
+    },
+    {
+        "name": "vacuum_packed",
+        "pattern": "\\s*vacuum\\s*-?packed"
+    },
+    {
+        "name": "melted",
+        "pattern": "\\s*melted\\b"
+    },
+    {
+        "name": "mashed",
+        "pattern": "\\s*mashed\\b"
+    },
+    {
+        "name": "peeled",
+        "pattern": "\\s*peeled\\b"
+    },
+    {
+        "name": "steamed",
+        "pattern": "\\s*steamed\\b"
+    },
+    {
+        "name": "diced",
+        "pattern": "\\s*diced\\b"
+    },
+    {
+        "name": "minced",
+        "pattern": "\\s*minced\\b"
+    },
+    {
+        "name": "shredded",
+        "pattern": "\\s*shredded\\b"
+    },
+    {
+        "name": "flaked",
+        "pattern": "\\s*flaked\\b"
+    },
+    {
+        "name": "soaked",
+        "pattern": "\\s*soaked\\b"
+    },
+    {
+        "name": "boiled",
+        "pattern": "\\s*boiled\\b"
+    },
+    {
+        "name": "chopped",
+        "pattern": "\\s*chopped\\b"
+    },
+    {
+        "name": "mixed",
+        "pattern": "\\s*mixed\\b"
+    },
+    {
+        "name": "crispy",
+        "pattern": "\\s*crispy\\b"
+    },
+    {
+        "name": "ball",
+        "pattern": "\\s*balls?\\b"
+    },
+    {
+        "name": "fine",
+        "pattern": "\\s*finel?y?\\b"
+    },
+    {
+        "name": "finely_cut",
+        "pattern": "\\s*finely\\s*cut"
+    },
+    {
+        "name": "thinly_sliced",
+        "pattern": "\\s*thinly\\s*sliced\\b"
+    },
+    {
+        "name": "sliced",
+        "pattern": "\\s*sliced\\b"
+    },
+    {
+        "name": "thick",
+        "pattern": "\\s*thick\\b"
+    },
+    {
+        "name": "thin",
+        "pattern": "\\s*thin"
+    },
+    {
+        "name": "grated",
+        "pattern": "\\s*grated\\b"
+    },
+    {
+        "name": "ground",
+        "pattern": "\\s*ground\\b"
+    },
+    {
+        "name": "smoked",
+        "pattern": "\\s*smoked \\b"
+    },
+    {
+        "name": "keep_the_water_inside",
+        "pattern": "\\s*keep\\s*the\\s*water\\s*inside\\b"
+    },
+    {
+        "name": "in_the_oven_remove",
+        "pattern": "\\s*(in)?\\s*(the)?\\s*oven\\s*remove\\b"
+    },
+    {
+        "name": "well_done",
+        "pattern": "\\s*well\\s*done\\b"
+    },
+    {
+        "name": "leftover",
+        "pattern": "\\s*left\\s*over\\b"
+    },
+    {
+        "name": "pricked",
+        "pattern": "\\s*pricked\\b"
+    },
+    {
+        "name": "oven_roasted",
+        "pattern": "\\s*oven\\s*roasted\\b"
+    },
+    {
+        "name": "roasted",
+        "pattern": "\\s*roasted"
+    },
+    {
+        "name": "homemade",
+        "pattern": "\\s*home\\s*made\\b"
+    },
+    {
+        "name": "fried",
+        "pattern": "\\s*(pan)?\\s*fried\\b"
+    },
+    {
+        "name": "fir_trees_shape",
+        "pattern": "\\s*(in)?\\s*fir\\s*trees?\\s*shaped?\\b"
+    },
+    {
+        "name": "long_and_quite_thin",
+        "pattern": "\\s*(that)?\\s*(are)?\\s*long\\s*and\\s*quite\\s*thin\\b"
+    },
+    {
+        "name": "broken_with_rolling_pin",
+        "pattern": "\\s*broken\\s*(into)?\\s*(pieces)?\\s*with\\s*(the)?\\s*rolling\\s*pin\\b"
+    },
+    {
+        "name": "ready_to_roll_out",
+        "pattern": "\\s*ready\\s*to\\s*roll\\s*out\\b"
+    },
+    {
+        "name": "rolled_with_rolling_pin",
+        "pattern": "\\s*rolled\\s*with\\s*rolling\\s*pin\\b"
+    },
+    {
+        "name": "rolled_into",
+        "pattern": "\\s*rolled\\s*into\\s*(rectangles|circles)\\b"
+    },
+    {
+        "name": "rolled",
+        "pattern": "\\s*rolled"
+    },
+    {
+        "name": "rolls",
+        "pattern": "\\s*rolls?"
+    },
+    {
+        "name": "cut",
+        "pattern": "\\s*cut\\b"
+    },
+    {
+        "name": "cubes",
+        "pattern": "\\s*(in)?\\s*cubes?\\b"
+    },
+    {
+        "name": "quarters",
+        "pattern": "\\s*quarters?\\b"
+    },
+    {
+        "name": "strips",
+        "pattern": "\\s*(in)?\\s*strips?\\b"
+    },
+    {
+        "name": "pieces",
+        "pattern": "\\s*in\\s*pieces?\\b"
+    },
+    {
+        "name": "sections",
+        "pattern": "\\s*sections?\\b"
+    },
+    {
+        "name": "julienne",
+        "pattern": "\\s*(fine)?\\s*juliennes?d?\\b"
+    },
+    {
+        "name": "wedges",
+        "pattern": "\\s*wedges?\\b"
+    },
+    {
+        "name": "chunks",
+        "pattern": "\\s*chunks?\\b"
+    },
+    {
+        "name": "even_portions",
+        "pattern": "\\s*(even)?\\s*portions?\\b"
+    },
+    {
+        "name": "sticks",
+        "pattern": "\\s*sticks?\\b"
+    },
+    {
+        "name": "bite-sized_pieces",
+        "pattern": "\\s*bite-?\\s*sized\\s*pieces?\\b"
+    },
+    {
+        "name": "naturally_salted",
+        "pattern": "\\s*naturally\\s*salted\\b"
+    },
+    {
+        "name": "semi_salted",
+        "pattern": "\\s*semi\\s*salted"
+    },
+    {
+        "name": "demi_salted",
+        "pattern": "\\s*demi-?\\s*salted"
+    },
+    {
+        "name": "desalted",
+        "pattern": "\\s*desalted"
+    },
+    {
+        "name": "salted",
+        "pattern": "\\s*salted!?"
+    },
+    {
+        "name": "barely",
+        "pattern": "\\s*barely\\b"
+    },
+    {
+        "name": "edible_flowers",
+        "pattern": "\\s*(with)?\\s*edible\\s*flowers\\b"
+    },
+    {
+        "name": "beautiful_bunches",
+        "pattern": "\\s*beautiful\\s*bunches\\s*(of)?\\b"
+    },
+    {
+        "name": "fixing_agent",
+        "pattern": "\\s*(with)?\\s*fixing\\s*agents?\\b"
+    },
+    {
+        "name": "labeyrie_type",
+        "pattern": "\\s*labeyrie\\s*type\\b"
+    },
+    {
+        "name": "suzi_wan",
+        "pattern": "\\s*suzi\\s*wan\u00ae?\\b"
+    },
+    {
+        "name": "briochin",
+        "pattern": "\\s*briochin\\b"
+    },
+    {
+        "name": "dijon",
+        "pattern": "\\s*dijon\\b"
+    },
+    {
+        "name": "chinese",
+        "pattern": "\\s*chinese\\b"
+    },
+    {
+        "name": "ready_cook",
+        "pattern": "\\s*ready\\s*cook"
+    },
+    {
+        "name": "cooked",
+        "pattern": "\\s*cooked\\b"
+    },
+    {
+        "name": "pre_baked",
+        "pattern": "\\s*pre(-)?\\s*baked\\b"
+    },
+    {
+        "name": "pre_cooked",
+        "pattern": "\\s*pre(-)?\\s*cooked\\b"
+    },
+    {
+        "name": "ready_made",
+        "pattern": "\\s*ready\\s*made\\b"
+    },
+    {
+        "name": "ovals_to_round_strips",
+        "pattern": "\\s*ovals\\s*to\\s*round\\s*strips\\b"
+    },
+    {
+        "name": "to_garnish",
+        "pattern": "\\s*(to\\s*)?garnish\\b"
+    },
+    {
+        "name": "to_fry",
+        "pattern": "\\s*to\\s*fry\\b"
+    },
+    {
+        "name": "for_color",
+        "pattern": "\\s*for\\s*color\\b"
+    },
+    {
+        "name": "for_frying_remove",
+        "pattern": "\\s*for\\s*frying\\s*(remove)?\\b"
+    },
+    {
+        "name": "for_browning",
+        "pattern": "\\s*for\\s*browning\\b"
+    },
+    {
+        "name": "cooking",
+        "pattern": "\\s*cooking\\b"
+    },
+    {
+        "name": "for_finishing",
+        "pattern": "\\s*for\\s*finishing\\b"
+    },
+    {
+        "name": "for_presentation",
+        "pattern": "\\s*for\\s*presentation\\b"
+    },
+    {
+        "name": "like",
+        "pattern": "\\s*(if)\\s*(you)\\s*(for)?\\s*(those)?\\s*(who)?\\s*like\\s*(it)?"
+    },
+    {
+        "name": "to_taste",
+        "pattern": "\\s*(to)?\\s*taste\\b"
+    },
+    {
+        "name": "variation",
+        "pattern": "\\s*(of)?\\s*variation\\b"
+    },
+    {
+        "name": "depending",
+        "pattern": "\\s*(of)?\\s*depending\\b"
+    },
+    {
+        "name": "optional",
+        "pattern": "\\s*(of)?\\s*optional:?\\b"
+    },
+    {
+        "name": "decoration",
+        "pattern": "\\s*(few)?\\s*(as)?\\s*decorat(e|ions?|ive)(\\s*(of)?\\s*choice)?(elements?)\\s*"
+    },
+    {
+        "name": "possibly_some",
+        "pattern": "\\s*possibly\\s*(some)?\\b"
+    },
+    {
+        "name": "whatever_you_want",
+        "pattern": "\\s*what\\s*ever\\s*you\\s*want\\b"
+    },
+    {
+        "name": "ideally",
+        "pattern": "\\s*ideally\\b"
+    },
+    {
+        "name": "or_any_other_milk_powder",
+        "pattern": "\\s*or\\s*any\\s*other\\b"
+    },
+    {
+        "name": "or_more",
+        "pattern": "\\s*or\\s*more\\b"
+    },
+    {
+        "name": "or_custard_as_desired",
+        "pattern": "\\s*or\\s*custard\\s*as\\s*desired\\b"
+    },
+    {
+        "name": "or_equivalent",
+        "pattern": "\\s*or\\s*equivalent\\b"
+    },
+    {
+        "name": "day_before",
+        "pattern": "\\s*(from)?\\s*(the)?\\s*day\\s*before\\b"
+    },
+    {
+        "name": "if_you_prefer",
+        "pattern": "\\s*if\\s*you\\s*prefer\\b"
+    },
+    {
+        "name": "preference",
+        "pattern": "\\s*(if)?\\s*(in)?\\s*preference\\b"
+    },
+    {
+        "name": "absence_of",
+        "pattern": "\\s*(in)?\\s*absence\\s*of\\b"
+    },
+    {
+        "name": "sensitivity_to_spices",
+        "pattern": "\\s*(for)?\\s*(those)?\\s*(with)?\\s*sensitivity\\s*to\\s*spices\\b"
+    },
+    {
+        "name": "butter_is_better",
+        "pattern": "\\s*(but)?\\s*butter\\s*is\\s*better\\b"
+    },
+    {
+        "name": "better_than_broken",
+        "pattern": "\\s*better\\s*than\\s*broken\\b"
+    },
+    {
+        "name": "better_than_milk",
+        "pattern": "\\s*better\\s*than\\s*milk"
+    },
+    {
+        "name": "better",
+        "pattern": "\\s*(is)?\\s*better\\s*"
+    },
+    {
+        "name": "reims",
+        "pattern": "\\s*(from)?\\s*reims\\b"
+    },
+    {
+        "name": "from_asian_grocery_stores",
+        "pattern": "\\s*(from)?\\s*asian\\s*grocery\\s*strores?\\b"
+    },
+    {
+        "name": "from_norway",
+        "pattern": "\\s*(from)?\\s*norway\\b"
+    },
+    {
+        "name": "see_recipe_here",
+        "pattern": "\\s*see\\s*recipe\\s*here\\b"
+    },
+    {
+        "name": "level",
+        "pattern": "\\s*level\\b"
+    },
+    {
+        "name": "firm",
+        "pattern": "\\s*firm\\b"
+    },
+    {
+        "name": "good",
+        "pattern": "\\s*good\\b"
+    },
+    {
+        "name": "norwegian",
+        "pattern": "\\s*norwegian\\b"
+    },
+    {
+        "name": "salt-preserved",
+        "pattern": "\\s*salt-?\\s*preserved\\b"
+    },
+    {
+        "name": "at_room_temperature",
+        "pattern": "\\s*at_?\\s*room_?\\s*temperature\\b"
+    },
+    {
+        "name": "authentic",
+        "pattern": "\\s*authentic\\b"
+    },
+    {
+        "name": "in_half_lengthwise",
+        "pattern": "\\s*in\\s*half\\s*lengthwise\\b"
+    },
+    {
+        "name": "around",
+        "pattern": "\\s*around\\b"
+    },
+    {
+        "name": "aged",
+        "pattern": "\\s*aged\\b"
+    },
+    {
+        "name": "amora",
+        "pattern": "(\\s*croq\\'vert)?\\s*amora\\b"
+    },
+    {
+        "name": "beautiful",
+        "pattern": "\\s*beautiful\\b"
+    },
+    {
+        "name": "lots_black_spots",
+        "pattern": "\\s*lots\\s*black\\s*spots\\b"
+    },
+    {
+        "name": "blanched",
+        "pattern": "\\s*blanched\\b"
+    },
+    {
+        "name": "finely",
+        "pattern": "\\s*finely\\b"
+    },
+    {
+        "name": "beaten",
+        "pattern": "\\s*(lightly)?\\s*beaten"
+    },
+    {
+        "name": "basic_elements",
+        "pattern": "\\s*basic\\s*elements\\b"
+    },
+    {
+        "name": "boiling",
+        "pattern": "\\s*boiling\\b"
+    },
+    {
+        "name": "puree",
+        "pattern": "\\s*puree(d|s)?\\b"
+    },
+    {
+        "name": "garden",
+        "pattern": "\\s*(from)?\\s*garden\\b"
+    },
+    {
+        "name": "boxed",
+        "pattern": "\\s*boxed\\b"
+    },
+    {
+        "name": "bomb",
+        "pattern": "\\s*bomb\\b"
+    },
+    {
+        "name": "powder",
+        "pattern": "\\s*poweder\\b"
+    },
+    {
+        "name": "broken",
+        "pattern": "\\s*broken\\b"
+    },
+    {
+        "name": "for_the_plate",
+        "pattern": "\\s*for\\s*the\\s*plate\\b"
+    },
+    {
+        "name": "american_style",
+        "pattern": "\\s*american\\s*style\\s*"
+    },
+    {
+        "name": "boneless",
+        "pattern": "\\s*boneless\\b"
+    },
+    {
+        "name": "fresh",
+        "pattern": "\\s*fresh\\b"
+    },
+    {
+        "name": "burgundy",
+        "pattern": "\\s*burgundy\\b"
+    },
+    {
+        "name": "butcher_style",
+        "pattern": "\\s*butcher\\s*style\\b"
+    },
+    {
+        "name": "soissons",
+        "pattern": "\\s*soissons\\b"
+    },
+    {
+        "name": "himalayan",
+        "pattern": "\\s*himalayan"
+    },
+    {
+        "name": "passed_through_sieve",
+        "pattern": "\\s*passed\\s*through\\s*sieve"
+    },
+    {
+        "name": "from_garden",
+        "pattern": "\\s*(from)?\\s*garden\\s*(or)?\\s*(store)?"
+    },
+    {
+        "name": "ripe_but_firm",
+        "pattern": "\\s*ripe\\s*but\\s*firm\\b"
+    },
+    {
+        "name": "bonne_maman",
+        "pattern": "\\s*bonne\\s*maman\\b"
+    },
+    {
+        "name": "cored",
+        "pattern": "\\s*cored\\b"
+    },
+    {
+        "name": "roughly",
+        "pattern": "\\s*rough(ly)?\\b"
+    },
+    {
+        "name": "smooth",
+        "pattern": "\\s*smooth"
+    },
+    {
+        "name": "cleaned",
+        "pattern": "\\s*cleaned\\b"
+    },
+    {
+        "name": "lean",
+        "pattern": "\\blean\\b"
+    },
+    {
+        "name": "coarse",
+        "pattern": "\\s*coarse\\b"
+    },
+    {
+        "name": "country-style",
+        "pattern": "\\s*country-style\\b"
+    },
+    {
+        "name": "country",
+        "pattern": "\\s*country\\b"
+    },
+    {
+        "name": "drained",
+        "pattern": "\\s*drained\\s*(well)?"
+    },
+    {
+        "name": "crumbled",
+        "pattern": "\\s*crumbled"
+    },
+    {
+        "name": "spread",
+        "pattern": "\\s*spread"
+    },
+    {
+        "name": "philadelphia",
+        "pattern": "\\s*philadelphia\\b"
+    },
+    {
+        "name": "st-Mor\u00eat",
+        "pattern": "\\s*st-?\\s*mor\u00eat\\b"
+    },
+    {
+        "name": "kiri",
+        "pattern": "\\s*kiri"
+    },
+    {
+        "name": "cold",
+        "pattern": "\\s*(very)?\\s*cold\\b"
+    },
+    {
+        "name": "catalan",
+        "pattern": "\\s*catalan\\b"
+    },
+    {
+        "name": "maizena",
+        "pattern": "\\s*ma(\u00ef|i)zena\u00ae?\\b"
+    },
+    {
+        "name": "vanhouten",
+        "pattern": "\\s*van\\s*houten\\b"
+    },
+    {
+        "name": "cobourg",
+        "pattern": "\\s*cobourg\\b"
+    },
+    {
+        "name": "carte_d_or",
+        "pattern": "\\s*carte\\s*d(\u2019|')\\s*or\\b"
+    },
+    {
+        "name": "pistoles",
+        "pattern": "\\s*pistoles"
+    },
+    {
+        "name": "was_enough_me",
+        "pattern": "\\s*was\\s*enough\\s*(for)?\\s*me"
+    },
+    {
+        "name": "carte_d'or",
+        "pattern": "\\s*carte_d(\u2019|')or\u00ae?"
+    },
+    {
+        "name": "complete",
+        "pattern": "complete"
+    },
+    {
+        "name": "integral",
+        "pattern": "integral"
+    },
+    {
+        "name": "danone",
+        "pattern": "danone"
+    },
+    {
+        "name": "the leaves",
+        "pattern": "(the)?\\s*leaves"
+    },
+    {
+        "name": "van_houten",
+        "pattern": "van\\s*houten"
+    },
+    {
+        "name": "with_their_stems",
+        "pattern": "with\\s*their\\s*stems"
+    },
+    {
+        "name": "whole",
+        "pattern": "\\s*whole\\b"
+    },
+    {
+        "name": "clovis",
+        "pattern": "\\s*clovis\\b"
+    },
+    {
+        "name": "caramelized",
+        "pattern": "\\s*caramelized\\b"
+    },
+    {
+        "name": "imperial_powder",
+        "pattern": "\\s*imperial\\s*powder"
+    },
+    {
+        "name": "van houghten",
+        "pattern": "\\s*van\\s*houghten"
+    },
+    {
+        "name": "blackcurrant",
+        "pattern": "\\s*blackcurrant\\b"
+    },
+    {
+        "name": "whipping",
+        "pattern": "\\s*whipping"
+    },
+    {
+        "name": "st sever",
+        "pattern": "\\s*st\\s*sever"
+    },
+    {
+        "name": "cathedral city",
+        "pattern": "\\s*cathedral\\s*city\\s*"
+    },
+    {
+        "name": "crunchy",
+        "pattern": "\\s*crunchy"
+    },
+    {
+        "name": "verrines",
+        "pattern": "\\s*verrines"
+    },
+    {
+        "name": "compagnons du go\u00fbt",
+        "pattern": "\\s*compagnons\\s*du\\s*go\u00fbt\\b"
+    },
+    {
+        "name": "slection",
+        "pattern": "\\s*selection\\b"
+    },
+    {
+        "name": "besan_or_gram",
+        "pattern": "\\s*?\\(besan\\s*(or\\s*gram\\))?"
+    },
+    {
+        "name": "at_least",
+        "pattern": "\\s*at\\s*least\\b"
+    },
+    {
+        "name": "confit",
+        "pattern": "\\s*confit"
+    },
+    {
+        "name": "if_you_want",
+        "pattern": "\\s*if\\s*you\\s*want\\b"
+    },
+    {
+        "name": "colorful",
+        "pattern": "\\s*colorful\\b"
+    },
+    {
+        "name": "classic",
+        "pattern": "\\s*classic\\b"
+    },
+    {
+        "name": "inverted",
+        "pattern": "\\s*inverted\\b"
+    },
+    {
+        "name": "vermicelli",
+        "pattern": "\\s*vermicelli\\b"
+    },
+    {
+        "name": "cliforette",
+        "pattern": "\\s*cliforette\\b"
+    },
+    {
+        "name": "flaming",
+        "pattern": "\\s*flaming\\b"
+    },
+    {
+        "name": "chuao",
+        "pattern": "\\s*chuao\\b"
+    },
+    {
+        "name": "valrhon",
+        "pattern": "\\s*valrhon"
+    },
+    {
+        "name": "pure",
+        "pattern": "\\s*pure\\s*(origin)?\\b"
+    },
+    {
+        "name": "marmande",
+        "pattern": "\\s*(from)?\\s*marmande\\b"
+    },
+    {
+        "name": "asterix",
+        "pattern": "\\s*asterix\\b"
+    },
+    {
+        "name": "goth",
+        "pattern": "\\s*goths?"
+    },
+    {
+        "name": "albert_men\u00e8s",
+        "pattern": "\\s*albert\\s*men\u00e8s"
+    },
+    {
+        "name": "canned",
+        "pattern": "\\s*canned\\b"
+    },
+    {
+        "name": "la_napolea",
+        "pattern": "\\s*la\\s*napolea"
+    },
+    {
+        "name": "sprouts",
+        "pattern": "\\s*sprouts?"
+    },
+    {
+        "name": "with_its_tops",
+        "pattern": "\\s*with\\s*its\\s*tops"
+    },
+    {
+        "name": "carapelli_vivace_bicarbonate",
+        "pattern": "\\s*carapelli\\s*vivace\\s*bicarbonate\\s*"
+    },
+    {
+        "name": "concentrated",
+        "pattern": "\\s*concentrated\\s*"
+    },
+    {
+        "name": "candied",
+        "pattern": "\\s*candied"
+    },
+    {
+        "name": "your_choice",
+        "pattern": "\\s*your\\s*choice"
+    },
+    {
+        "name": "alter_africa",
+        "pattern": "\\s*alter\\s*africa"
+    },
+    {
+        "name": "from_store",
+        "pattern": "\\s*from\\s*store"
+    },
+    {
+        "name": "zest",
+        "pattern": "\\s*zest"
+    },
+    {
+        "name": "each",
+        "pattern": "\\s*each\\b"
+    },
+    {
+        "name": "bjorg",
+        "pattern": "\\s*bjorg"
+    },
+    {
+        "name": "mild",
+        "pattern": "\\s*mild"
+    },
+    {
+        "name": "sharp",
+        "pattern": "\\s*sharp"
+    },
+    {
+        "name": "squeezed",
+        "pattern": "\\s*(freshly)?\\s*squeezed\\b"
+    },
+    {
+        "name": "danette",
+        "pattern": "\\s*danette"
+    },
+    {
+        "name": "charlotte_red_label",
+        "pattern": "\\s*(charlotte)?\\s*red\\s*label"
+    },
+    {
+        "name": "glazed",
+        "pattern": "\\s*glazed"
+    },
+    {
+        "name": "guinettes",
+        "pattern": "\\s*guinettes"
+    },
+    {
+        "name": "halves",
+        "pattern": "\\s*halves"
+    },
+    {
+        "name": "charlotte",
+        "pattern": "\\s*charlotte\\s*(type)?"
+    },
+    {
+        "name": "failing_that",
+        "pattern": "\\s*failing\\s*that"
+    },
+    {
+        "name": "from_melfor",
+        "pattern": "\\s*(from)?\\s*melfor"
+    },
+    {
+        "name": "market",
+        "pattern": "\\s*market\\b"
+    },
+    {
+        "name": "sauceline",
+        "pattern": "\\s*sauceline"
+    },
+    {
+        "name": "if_smaller",
+        "pattern": "\\s*if\\s*(it\\'s)?\\s*a\\s*smaller"
+    },
+    {
+        "name": "leftovers",
+        "pattern": "\\s*leftovers?"
+    },
+    {
+        "name": "cognac",
+        "pattern": "\\s*cognac"
+    },
+    {
+        "name": "fried_in_butter",
+        "pattern": "\\s*fried\\s*in\\s*butter"
+    },
+    {
+        "name": "coarsely",
+        "pattern": "\\s*coarsel?y?"
+    },
+    {
+        "name": "me_gluten_free",
+        "pattern": "\\s*me\\s*gluten\\s*free"
+    },
+    {
+        "name": "containing_livers",
+        "pattern": "\\s*(still)?\\s*(containing)?\\s*their\\s*livers?"
+    },
+    {
+        "name": "cubed",
+        "pattern": "\\s*cubed"
+    },
+    {
+        "name": "i_didn't_have_any",
+        "pattern": "\\s*i\\s*didn\\'t\\s*have\\s*any"
+    },
+    {
+        "name": "in_shoulder",
+        "pattern": "\\s*in\\s*(the)?\\s*shoulder"
+    },
+    {
+        "name": "corsican_canestrelli",
+        "pattern": "\\s*corsican\\s*canestrelli"
+    },
+    {
+        "name": "clarified",
+        "pattern": "\\s*clarified"
+    },
+    {
+        "name": "cornicabra",
+        "pattern": "\\s*cornicabra"
+    },
+    {
+        "name": "from_spain",
+        "pattern": "\\s*from\\s*spain"
+    },
+    {
+        "name": "candia",
+        "pattern": "\\s*candia\\s*baby"
+    },
+    {
+        "name": "from_your_poultry_store",
+        "pattern": "\\s*(from)?\\s*(your)?\\s*poultry\\s*store"
+    },
+    {
+        "name": "cassegrain",
+        "pattern": "\\s*cassegrain"
+    },
+    {
+        "name": "crumbs",
+        "pattern": "\\s*crumbs?\\b"
+    },
+    {
+        "name": "colored",
+        "pattern": "\\s*(multi)?\\s*colored"
+    },
+    {
+        "name": "carambar",
+        "pattern": "\\s*carambar"
+    },
+    {
+        "name": "with_the_peel",
+        "pattern": "\\s*with\\s*the\\s*peel"
+    },
+    {
+        "name": "diluted_in_glass_water",
+        "pattern": "\\s*diluted\\s*in\\s*glass\\s*water"
+    },
+    {
+        "name": "canadian",
+        "pattern": "\\s*canadian"
+    },
+    {
+        "name": "casa_azzurra",
+        "pattern": "\\s*casa\\s*azzurra"
+    },
+    {
+        "name": "ciflorettes",
+        "pattern": "\\s*ciflorettes"
+    },
+    {
+        "name": "made_from_milk",
+        "pattern": "\\s*made\\s*from\\s*milk"
+    },
+    {
+        "name": "julienned",
+        "pattern": "\\s*julienned"
+    },
+    {
+        "name": "industrial",
+        "pattern": "\\s*industrial"
+    },
+    {
+        "name": "chuka_wakame",
+        "pattern": "\\s*chuka\\s*wakame"
+    },
+    {
+        "name": "pays_de_caux",
+        "pattern": "\\s*pays\\s*de\\s*caux"
+    },
+    {
+        "name": "calvados",
+        "pattern": "\\s*calvados"
+    },
+    {
+        "name": "cara\u00efbos",
+        "pattern": "\\s*cara\u00efbos"
+    },
+    {
+        "name": "liquefied",
+        "pattern": "\\s*liquefied"
+    },
+    {
+        "name": "semi_liquid",
+        "pattern": "\\s*semi\\s*liquid"
+    },
+    {
+        "name": "liquid",
+        "pattern": "\\s*liquid"
+    },
+    {
+        "name": "la_napolea_brand",
+        "pattern": "\\s*la\\s*napolea\\s*brand"
+    },
+    {
+        "name": "cacao_barry",
+        "pattern": "\\s*cacao\\s*barry"
+    },
+    {
+        "name": "dark_gold",
+        "pattern": "\\s*dark\\s*gold"
+    },
+    {
+        "name": "black_gold",
+        "pattern": "\\s*black\\s*gold"
+    },
+    {
+        "name": "chatawak",
+        "pattern": "\\s*chatawak"
+    },
+    {
+        "name": "nestl_e",
+        "pattern": "\\s*nestl_(\u00e9|e)"
+    },
+    {
+        "name": "in_water",
+        "pattern": "\\s*in\\s*water"
+    },
+    {
+        "name": "france",
+        "pattern": "\\s*france"
+    },
+    {
+        "name": "toasted",
+        "pattern": "\\s*toasted"
+    },
+    {
+        "name": "deveined",
+        "pattern": "\\s*deveined"
+    },
+    {
+        "name": "dehydrated",
+        "pattern": "\\s*dehydrated"
+    },
+    {
+        "name": "hydrated",
+        "pattern": "\\s*hydrated"
+    },
+    {
+        "name": "dry",
+        "pattern": "\\s*dry\\b"
+    },
+    {
+        "name": "yon_la_go\u00eale",
+        "pattern": "\\s*in\\s*yon\\s*la\\s*go(\u00ea|e)le\\s*"
+    },
+    {
+        "name": "dolloped",
+        "pattern": "\\s*dolloped"
+    },
+    {
+        "name": "doused",
+        "pattern": "\\s*doused"
+    },
+    {
+        "name": "dose",
+        "pattern": "\\s*dose"
+    },
+    {
+        "name": "disc",
+        "pattern": "\\s*disc"
+    },
+    {
+        "name": "valrhona",
+        "pattern": "\\s*valrhona"
+    },
+    {
+        "name": "barry_cocoa",
+        "pattern": "\\s*barry\\s*cocoa"
+    },
+    {
+        "name": "chantecler",
+        "pattern": "\\s*chantecler"
+    },
+    {
+        "name": "tangy",
+        "pattern": "\\s*tangy"
+    },
+    {
+        "name": "flavor",
+        "pattern": "\\s*(rich\\s*in)?\\s*flavor(ed)?"
+    },
+    {
+        "name": "dar_egal",
+        "pattern": "\\s*dar\\s*(\u00e9|e)gal"
+    },
+    {
+        "name": "doused_amora",
+        "pattern": "\\s*(doused)?\\s*amora"
+    },
+    {
+        "name": "reserve",
+        "pattern": "\\s*reserve"
+    },
+    {
+        "name": "per",
+        "pattern": "\\bper\\b\\s*(cream)?"
+    },
+    {
+        "name": "domed",
+        "pattern": "\\s*domed"
+    },
+    {
+        "name": "dakatine",
+        "pattern": "\\s*dakatine"
+    },
+    {
+        "name": "dressing",
+        "pattern": "\\s*dressing"
+    },
+    {
+        "name": "at min.",
+        "pattern": "\\s*at\\s*min\\.?"
+    },
+    {
+        "name": "reduction",
+        "pattern": "\\s*reduction"
+    },
+    {
+        "name": "recovered_cooking_juice",
+        "pattern": "\\s*recovered\\s*(cooking)?\\s*juice"
+    },
+    {
+        "name": "durum",
+        "pattern": "\\s*durum"
+    },
+    {
+        "name": "guinness",
+        "pattern": "\\s*guinness"
+    },
+    {
+        "name": "cold_pressed",
+        "pattern": "\\s*cold\\s*pressed"
+    },
+    {
+        "name": "dolfin",
+        "pattern": "\\s*dolfin"
+    },
+    {
+        "name": "more_than",
+        "pattern": "\\s*more\\s*than"
+    },
+    {
+        "name": "south_west",
+        "pattern": "\\s*south\\s*west"
+    },
+    {
+        "name": "terrine",
+        "pattern": "\\s*terrine"
+    },
+    {
+        "name": "derinded",
+        "pattern": "\\s*de\\s*rinded"
+    },
+    {
+        "name": "alsace",
+        "pattern": "\\s*alsace\\s*(type)?"
+    },
+    {
+        "name": "ghana",
+        "pattern": "\\s*ghana"
+    },
+    {
+        "name": "r_\u00e9gal_et_sens",
+        "pattern": "\\s*r\\s*(\u00e9|e)gal\\s*et\\s*sens"
+    },
+    {
+        "name": "denervated",
+        "pattern": "\\s*denervated"
+    },
+    {
+        "name": "stirred",
+        "pattern": "\\s*stirred"
+    },
+    {
+        "name": "ducros",
+        "pattern": "\\s*ducros"
+    },
+    {
+        "name": "couverture",
+        "pattern": "\\s*couverture"
+    },
+    {
+        "name": "white_and_yolk_separated",
+        "pattern": "\\s*(white|yolk)s?\\s*and\\s*(white|yolk)s?\\s*separated"
+    },
+    {
+        "name": "brushing",
+        "pattern": "\\s*brushing"
+    },
+    {
+        "name": "gilding",
+        "pattern": "\\s*gilding"
+    },
+    {
+        "name": "separated",
+        "pattern": "\\s*separated?"
+    },
+    {
+        "name": "ebly",
+        "pattern": "\\s*ebly\u00ae?"
+    },
+    {
+        "name": "elle_&_vire",
+        "pattern": "\\s*elle\\s*(&|and)\\s*vire"
+    },
+    {
+        "name": "ethiquable",
+        "pattern": "\\s*ethiquable"
+    },
+    {
+        "name": "powder_work_surface",
+        "pattern": "\\s*powder\\s*work\\s*surface"
+    },
+    {
+        "name": "madagascar",
+        "pattern": "\\s*madagascar"
+    },
+    {
+        "name": "edible",
+        "pattern": "\\s*edible"
+    },
+    {
+        "name": "entredeuxmers",
+        "pattern": "\\s*entredeuxmers"
+    },
+    {
+        "name": "etorki\u00ae",
+        "pattern": "\\s*etorki\u00ae?"
+    },
+    {
+        "name": "preparation",
+        "pattern": "\\s*preparation"
+    },
+    {
+        "name": "mets_aventures",
+        "pattern": "\\s*mets\\s*aventures"
+    },
+    {
+        "name": "easy",
+        "pattern": "\\s*easy\\b"
+    },
+    {
+        "name": "extremely",
+        "pattern": "\\s*extremely"
+    },
+    {
+        "name": "exotic",
+        "pattern": "\\s*exotic\\s*(fruits)?"
+    },
+    {
+        "name": "empty",
+        "pattern": "\\s*empty"
+    },
+    {
+        "name": "golden",
+        "pattern": "\\s*golden"
+    },
+    {
+        "name": "whipped_until_stiff",
+        "pattern": "\\s*whipped\\s*until\\s*stiff"
+    },
+    {
+        "name": "elongated",
+        "pattern": "\\s*elongated"
+    },
+    {
+        "name": "long",
+        "pattern": "\\blong\\b"
+    },
+    {
+        "name": "wide",
+        "pattern": "\\bwide\\b"
+    },
+    {
+        "name": "local",
+        "pattern": "\\s*local"
+    },
+    {
+        "name": "fatty",
+        "pattern": "\\s*fatty"
+    },
+    {
+        "name": "douceur_de_saint_agur",
+        "pattern": "(\\s*douceur)?\\s*de\\s*saint\\s*agur"
+    },
+    {
+        "name": "st_moret_clod",
+        "pattern": "\\s*(st|saint)\\s*m(o|\u00f4)ret\\s*(clod)?"
+    },
+    {
+        "name": "still_in_pod",
+        "pattern": "\\s*still\\s*in\\s*pod"
+    },
+    {
+        "name": "shelled",
+        "pattern": "\\s*shelled"
+    },
+    {
+        "name": "ferment",
+        "pattern": "\\s*ferment(ed)?"
+    },
+    {
+        "name": "fjord",
+        "pattern": "\\s*fjord"
+    },
+    {
+        "name": "free_range",
+        "pattern": "\\s*free\\s*range"
+    },
+    {
+        "name": "florets",
+        "pattern": "\\s*florets"
+    },
+    {
+        "name": "chavroux",
+        "pattern": "\\s*chavroux"
+    },
+    {
+        "name": "saint_maure",
+        "pattern": "\\s*saint\\s*maure"
+    },
+    {
+        "name": "fluid",
+        "pattern": "\\s*fluid"
+    },
+    {
+        "name": "fruity",
+        "pattern": "\\s*fruity"
+    },
+    {
+        "name": "filtered",
+        "pattern": "\\s*filtered"
+    },
+    {
+        "name": "floury",
+        "pattern": "\\s*floury"
+    },
+    {
+        "name": "incorporated",
+        "pattern": "\\s*incorporated"
+    },
+    {
+        "name": "fleury_michon",
+        "pattern": "\\s*fleury\\s*michon"
+    },
+    {
+        "name": "petit_billy",
+        "pattern": "\\s*petit\\s*billy"
+    },
+    {
+        "name": "fairly",
+        "pattern": "\\s*fairly"
+    },
+    {
+        "name": "sifted",
+        "pattern": "\\s*sifted"
+    },
+    {
+        "name": "pasteurized",
+        "pattern": "\\s*pasteurized"
+    },
+    {
+        "name": "florida",
+        "pattern": "\\s*florida"
+    },
+    {
+        "name": "defrosted",
+        "pattern": "\\s*defrosted"
+    },
+    {
+        "name": "flat",
+        "pattern": "\\s*flat"
+    },
+    {
+        "name": "filleted",
+        "pattern": "\\s*fillete?d?"
+    },
+    {
+        "name": "cutlets",
+        "pattern": "\\s*cutlets?"
+    },
+    {
+        "name": "fleshed",
+        "pattern": "\\s*fleshed"
+    },
+    {
+        "name": "green",
+        "pattern": "\\s*green"
+    },
+    {
+        "name": "gray",
+        "pattern": "\\s*gray"
+    },
+    {
+        "name": "grilled",
+        "pattern": "\\s*grilled"
+    },
+    {
+        "name": "red",
+        "pattern": "\\bred\\b"
+    },
+    {
+        "name": "gluten_free",
+        "pattern": "\\s*gluten\\s*free"
+    },
+    {
+        "name": "generous",
+        "pattern": "\\s*generous"
+    },
+    {
+        "name": "softened",
+        "pattern": "\\s*softened"
+    },
+    {
+        "name": "superfine",
+        "pattern": "\\s*super\\s*fine"
+    },
+    {
+        "name": "grain_fed",
+        "pattern": "\\s*grain\\s*fed"
+    },
+    {
+        "name": "mixture",
+        "pattern": "\\s*mixture(\\s*your\\s*choice)?"
+    },
+    {
+        "name": "scaled",
+        "pattern": "\\s*scaled"
+    },
+    {
+        "name": "glacial",
+        "pattern": "\\s*glacial"
+    },
+    {
+        "name": "lengthwise",
+        "pattern": "\\s*lengthwise"
+    },
+    {
+        "name": "grain",
+        "pattern": "\\s*grain"
+    },
+    {
+        "name": "gu_\u00e9rande",
+        "pattern": "\\s*gu\\s*(\u00e9|e)rande"
+    },
+    {
+        "name": "fermage",
+        "pattern": "\\s*fermage"
+    },
+    {
+        "name": "bitter",
+        "pattern": "\\s*bitter"
+    },
+    {
+        "name": "gutted",
+        "pattern": "\\s*gutted"
+    },
+    {
+        "name": "g\u00e2tinais",
+        "pattern": "\\s*g\u00e2tinais"
+    },
+    {
+        "name": "chardonnay",
+        "pattern": "\\s*chardonnay"
+    },
+    {
+        "name": "coteaux_du_layon",
+        "pattern": "\\s*coteaux\\s*du\\s*layon"
+    },
+    {
+        "name": "washed",
+        "pattern": "\\s*washed"
+    },
+    {
+        "name": "half",
+        "pattern": "\\s*half"
+    },
+    {
+        "name": "in_tube",
+        "pattern": "\\s*in\\s*tube"
+    },
+    {
+        "name": "sure_valley",
+        "pattern": "\\s*sure\\s*valley"
+    },
+    {
+        "name": "lot_et_garonne",
+        "pattern": "\\s*lot\\s*et\\s*garonne"
+    },
+    {
+        "name": "hollow",
+        "pattern": "\\s*hollow"
+    },
+    {
+        "name": "herbamare",
+        "pattern": "\\s*herbamare"
+    },
+    {
+        "name": "hawaiian",
+        "pattern": "\\s*hawaiian"
+    },
+    {
+        "name": "lomagne",
+        "pattern": "\\s*lomagne"
+    },
+    {
+        "name": "hungarian",
+        "pattern": "\\s*hungarian"
+    },
+    {
+        "name": "preserved_in_oil",
+        "pattern": "\\s*preserved\\s*in\\s*oil"
+    },
+    {
+        "name": "round",
+        "pattern": "\\s*round(s|ed)?"
+    },
+    {
+        "name": "juicy",
+        "pattern": "\\s*juicy"
+    },
+    {
+        "name": "juice",
+        "pattern": "\\s*juice"
+    },
+    {
+        "name": "japanese",
+        "pattern": "\\s*japanese"
+    },
+    {
+        "name": "jura",
+        "pattern": "\\s*jura\\s*(grape)?\\s*(variety)?"
+    },
+    {
+        "name": "jerusalem",
+        "pattern": "\\s*jerusalem"
+    },
+    {
+        "name": "jean_martin",
+        "pattern": "\\s*jean\\s*martin"
+    },
+    {
+        "name": "jean_routhiau",
+        "pattern": "\\s*jean\\s*routhiau"
+    },
+    {
+        "name": "jerez",
+        "pattern": "\\s*jerez"
+    },
+    {
+        "name": "jean_herve",
+        "pattern": "\\s*jean\\s*herve"
+    },
+    {
+        "name": "jupiler",
+        "pattern": "\\s*jupiler"
+    },
+    {
+        "name": "jeanlain",
+        "pattern": "\\s*jeanlain"
+    },
+    {
+        "name": "jules_destrooper",
+        "pattern": "\\s*jules\\s*destrooper"
+    },
+    {
+        "name": "ker_cad_\u00e9lac",
+        "pattern": "\\s*ker\\s*cad\\s*(\u00e9|e)lac\u00a9?"
+    },
+    {
+        "name": "kambly",
+        "pattern": "\\s*kambly"
+    },
+    {
+        "name": "kritsen",
+        "pattern": "\\s*kritsen"
+    },
+    {
+        "name": "knorr",
+        "pattern": "\\s*knorr"
+    },
+    {
+        "name": "kombu",
+        "pattern": "\\s*kombu"
+    },
+    {
+        "name": "kaffir",
+        "pattern": "\\s*kaffir"
+    },
+    {
+        "name": "knacki",
+        "pattern": "\\s*knacki"
+    },
+    {
+        "name": "kahlua",
+        "pattern": "\\s*kahlua"
+    },
+    {
+        "name": "kinder",
+        "pattern": "\\s*kinder\u00ae?"
+    },
+    {
+        "name": "kellog",
+        "pattern": "\\s*kellogg\\'s"
+    },
+    {
+        "name": "kayser",
+        "pattern": "\\s*kayser"
+    },
+    {
+        "name": "kirsch",
+        "pattern": "\\s*kirsch"
+    },
+    {
+        "name": "kamut",
+        "pattern": "\\s*kamut"
+    },
+    {
+        "name": "lukewarm",
+        "pattern": "\\s*lukewarm"
+    },
+    {
+        "name": "lindt",
+        "pattern": "\\s*lindt"
+    },
+    {
+        "name": "loaded",
+        "pattern": "\\s*loaded"
+    },
+    {
+        "name": "lesieur",
+        "pattern": "\\s*lesieur"
+    },
+    {
+        "name": "bitterness",
+        "pattern": "\\s*bitterness"
+    },
+    {
+        "name": "reconstituted",
+        "pattern": "\\s*reconstituted"
+    },
+    {
+        "name": "label_rouge_charlotte",
+        "pattern": "\\s*label\\s*rouge\\s*charlotte"
+    },
+    {
+        "name": "laughing",
+        "pattern": "\\s*laughing"
+    },
+    {
+        "name": "apices_planet",
+        "pattern": "\\s*apices\\s*planet"
+    },
+    {
+        "name": "low_fat",
+        "pattern": "\\s*low\\s*fat"
+    },
+    {
+        "name": "life_water",
+        "pattern": "\\s*life\\s*water"
+    },
+    {
+        "name": "landes",
+        "pattern": "\\s*landes"
+    },
+    {
+        "name": "li\u00e8ge",
+        "pattern": "\\s*li(\u00e8|e)ge"
+    },
+    {
+        "name": "lactose_free",
+        "pattern": "\\s*(lactose|milk)\\s*free"
+    },
+    {
+        "name": "lanquetot",
+        "pattern": "\\s*lanquetot"
+    },
+    {
+        "name": "quartered",
+        "pattern": "\\s*quartered"
+    },
+    {
+        "name": "white",
+        "pattern": "\\s*white"
+    },
+    {
+        "name": "mirabelle",
+        "pattern": "\\s*mirabelle"
+    },
+    {
+        "name": "mc_vities",
+        "pattern": "\\s*mc\\s*vities"
+    },
+    {
+        "name": "marinated",
+        "pattern": "\\s*marinated"
+    },
+    {
+        "name": "milled",
+        "pattern": "\\s*milled"
+    },
+    {
+        "name": "madiran",
+        "pattern": "\\s*madiran"
+    },
+    {
+        "name": "maltese",
+        "pattern": "\\s*maltese"
+    },
+    {
+        "name": "scamorza",
+        "pattern": "\\s*scamorza"
+    },
+    {
+        "name": "maggi",
+        "pattern": "\\s*maggi"
+    },
+    {
+        "name": "aroma_flavor",
+        "pattern": "\\s*aroma\\s*flavor"
+    },
+    {
+        "name": "muscadet",
+        "pattern": "\\s*muscadet"
+    },
+    {
+        "name": "morteau",
+        "pattern": "\\s*morteau"
+    },
+    {
+        "name": "maldon",
+        "pattern": "\\s*maldon"
+    },
+    {
+        "name": "melting",
+        "pattern": "\\s*melting"
+    },
+    {
+        "name": "morello",
+        "pattern": "\\s*morello"
+    },
+    {
+        "name": "mascobado",
+        "pattern": "\\s*mascobado"
+    },
+    {
+        "name": "moselle",
+        "pattern": "\\s*moselle"
+    },
+    {
+        "name": "molded",
+        "pattern": "\\s*molded"
+    },
+    {
+        "name": "malibu",
+        "pattern": "\\s*malibu"
+    },
+    {
+        "name": "myrtle",
+        "pattern": "\\s*myrtle"
+    },
+    {
+        "name": "madeira",
+        "pattern": "\\s*madeira"
+    },
+    {
+        "name": "my_andros",
+        "pattern": "\\s*my\\s*andros"
+    },
+    {
+        "name": "margate",
+        "pattern": "\\s*margate"
+    },
+    {
+        "name": "morgate",
+        "pattern": "\\s*morgate"
+    },
+    {
+        "name": "muesli",
+        "pattern": "\\s*muesli"
+    },
+    {
+        "name": "magnificat",
+        "pattern": "\\s*magnificat"
+    },
+    {
+        "name": "mont_\u00e9limar",
+        "pattern": "\\s*mont\\s*(\u00e9|e)limar"
+    },
+    {
+        "name": "miscellaneous",
+        "pattern": "\\s*miscellaneous"
+    },
+    {
+        "name": "measure",
+        "pattern": "\\s*measure"
+    },
+    {
+        "name": "macerated",
+        "pattern": "\\s*macerated"
+    },
+    {
+        "name": "old_nick",
+        "pattern": "\\s*old\\s*nick"
+    },
+    {
+        "name": "old_el_paso",
+        "pattern": "\\s*old\\s*el\\s*paso"
+    },
+    {
+        "name": "old",
+        "pattern": "\\bold\\b\\s*(fashioned|style)?\\s*(brown\\s*agricultural)?"
+    },
+    {
+        "name": "duxelles",
+        "pattern": "\\s*duxelles"
+    },
+    {
+        "name": "maille",
+        "pattern": "\\s*maille"
+    },
+    {
+        "name": "martini\u00ae",
+        "pattern": "\\s*martini\u00ae?"
+    },
+    {
+        "name": "madras",
+        "pattern": "\\s*madras"
+    },
+    {
+        "name": "maitre_coq",
+        "pattern": "\\s*ma(\u00ee|i)tre\\s*coq"
+    },
+    {
+        "name": "mont_blanc",
+        "pattern": "\\s*mont\\s*blanc"
+    },
+    {
+        "name": "montb_eliard",
+        "pattern": "\\s*montb\\s*(\u00e9|e)liard"
+    },
+    {
+        "name": "regular",
+        "pattern": "\\s*regular"
+    },
+    {
+        "name": "mikados",
+        "pattern": "\\s*mikados"
+    },
+    {
+        "name": "meaux",
+        "pattern": "\\s*meaux"
+    },
+    {
+        "name": "melun",
+        "pattern": "\\s*melun"
+    },
+    {
+        "name": "milly",
+        "pattern": "\\s*milly"
+    },
+    {
+        "name": "miniature",
+        "pattern": "\\s*miniature"
+    },
+    {
+        "name": "rmandy",
+        "pattern": "\\s*rmandy"
+    },
+    {
+        "name": "markal",
+        "pattern": "\\s*markal"
+    },
+    {
+        "name": "medjool",
+        "pattern": "\\s*medjool"
+    },
+    {
+        "name": "mejhoul",
+        "pattern": "\\s*mejhoul"
+    },
+    {
+        "name": "if_needed",
+        "pattern": "\\s*if\\s*needed"
+    },
+    {
+        "name": "melfort",
+        "pattern": "\\s*melfort"
+    },
+    {
+        "name": "milk_fed",
+        "pattern": "\\s*milk_fed"
+    },
+    {
+        "name": "natali",
+        "pattern": "\\s*natali"
+    },
+    {
+        "name": "nampla",
+        "pattern": "\\s*nampla"
+    },
+    {
+        "name": "nicaraguan",
+        "pattern": "\\s*nicaraguan"
+    },
+    {
+        "name": "negrita",
+        "pattern": "\\s*n\\s*(e|\u00e9)grita"
+    },
+    {
+        "name": "napoleon_bigarreau",
+        "pattern": "\\s*napoleon\\s*bigarreau"
+    },
+    {
+        "name": "neutral",
+        "pattern": "\\s*neutral"
+    },
+    {
+        "name": "nutritional",
+        "pattern": "\\s*nutritional"
+    },
+    {
+        "name": "nat_and_vie",
+        "pattern": "\\s*nat\\s*(&|and)\\s*vie"
+    },
+    {
+        "name": "oriental",
+        "pattern": "\\s*oriental"
+    },
+    {
+        "name": "ossau_valley",
+        "pattern": "\\s*ossau\\s*valley"
+    },
+    {
+        "name": "over",
+        "pattern": "\\s*over\\b"
+    },
+    {
+        "name": "studded",
+        "pattern": "\\s*studded"
+    },
+    {
+        "name": "arcachon",
+        "pattern": "\\s*arcachon"
+    },
+    {
+        "name": "roscoff",
+        "pattern": "\\s*roscoff\\s*(style)?"
+    },
+    {
+        "name": "pink",
+        "pattern": "\\s*pink"
+    },
+    {
+        "name": "powdered",
+        "pattern": "\\s*powdered"
+    },
+    {
+        "name": "plain",
+        "pattern": "\\s*plain"
+    },
+    {
+        "name": "puffed",
+        "pattern": "\\s*puffed"
+    },
+    {
+        "name": "pralinoise",
+        "pattern": "\\s*pralinoise"
+    },
+    {
+        "name": "praline",
+        "pattern": "\\s*praline"
+    },
+    {
+        "name": "in_syrup",
+        "pattern": "\\s*in\\s*syrup"
+    },
+    {
+        "name": "prince_de_bretagne",
+        "pattern": "\\s*prince\\s*de\\s*bretagne"
+    },
+    {
+        "name": "p_\u00e9rigord",
+        "pattern": "\\s*p\\s*(\u00e9|e)rigord"
+    },
+    {
+        "name": "purslane",
+        "pattern": "\\s*purslane"
+    },
+    {
+        "name": "parma",
+        "pattern": "\\s*parma"
+    },
+    {
+        "name": "paris",
+        "pattern": "\\s*paris"
+    },
+    {
+        "name": "preserved",
+        "pattern": "\\s*preserved"
+    },
+    {
+        "name": "pm",
+        "pattern": "\\s*pm\\b"
+    },
+    {
+        "name": "pre_hulled",
+        "pattern": "\\s*pre\\s*hulled"
+    },
+    {
+        "name": "palm_dende",
+        "pattern": "\\s*palm\\s*dend(\u00ea|e)"
+    },
+    {
+        "name": "princess_amandine_dor_\u00e9oc",
+        "pattern": "\\s*princess\\s*amandine\\s*(dor\\s*\u00e9oc)?"
+    },
+    {
+        "name": "up_to",
+        "pattern": "\\s*up\\s*to"
+    },
+    {
+        "name": "irish",
+        "pattern": "\\s*irish\\s*(product)?"
+    },
+    {
+        "name": "pickled",
+        "pattern": "\\s*pickled"
+    },
+    {
+        "name": "comt_\u00e9",
+        "pattern": "\\s*comt\\s*(\u00e9|e)"
+    },
+    {
+        "name": "purple",
+        "pattern": "\\s*purple"
+    },
+    {
+        "name": "spreadable",
+        "pattern": "\\s*spreadable"
+    },
+    {
+        "name": "poached",
+        "pattern": "\\s*poached"
+    },
+    {
+        "name": "pressed",
+        "pattern": "\\s*pressed"
+    },
+    {
+        "name": "pyrenees_suckling",
+        "pattern": "\\s*pyrenees\\s*(suckling)?"
+    },
+    {
+        "name": "giovanni_ferrari",
+        "pattern": "\\s*giovanni\\s*ferrari"
+    },
+    {
+        "name": "portuguese",
+        "pattern": "\\s*portuguese"
+    },
+    {
+        "name": "parme",
+        "pattern": "\\s*parme(\\'s)?\\b"
+    },
+    {
+        "name": "butcher",
+        "pattern": "prepared\\s*by\\s*(the)?\\s*butcher"
+    },
+    {
+        "name": "prepare_before_recipe",
+        "pattern": "\\s*prepared?\\s*before\\s*recipe\\b"
+    },
+    {
+        "name": "previously_prepared",
+        "pattern": "\\s*previously\\s*prepared"
+    },
+    {
+        "name": "prepared",
+        "pattern": "\\s*prepared"
+    },
+    {
+        "name": "pata_negra",
+        "pattern": "\\s*pata\\s*negra"
+    },
+    {
+        "name": "thawed",
+        "pattern": "\\s*thawed"
+    },
+    {
+        "name": "panzani",
+        "pattern": "\\s*panzani"
+    },
+    {
+        "name": "poulain",
+        "pattern": "\\s*poulain"
+    },
+    {
+        "name": "bintje",
+        "pattern": "\\s*bintje"
+    },
+    {
+        "name": "pulverized",
+        "pattern": "\\s*pulverized"
+    },
+    {
+        "name": "pulco",
+        "pattern": "\\s*pulco"
+    },
+    {
+        "name": "unsweetened",
+        "pattern": "\\s*unsweetened"
+    },
+    {
+        "name": "sweetened",
+        "pattern": "\\s*sweetened"
+    },
+    {
+        "name": "peppered",
+        "pattern": "\\s*peppered"
+    },
+    {
+        "name": "victoria",
+        "pattern": "\\s*victoria"
+    },
+    {
+        "name": "pe_tsai",
+        "pattern": "\\s*pe\\s*tsai"
+    },
+    {
+        "name": "phare_deckm\u00fchl",
+        "pattern": "\\s*phare\\s*d(\u2019|\\')eckm(\u00fc|u)hl"
+    },
+    {
+        "name": "processed",
+        "pattern": "\\s*processed"
+    },
+    {
+        "name": "qs",
+        "pattern": "\\s*qs"
+    },
+    {
+        "name": "quai_sud",
+        "pattern": "\\s*quai\\s*sud"
+    },
+    {
+        "name": "rocher",
+        "pattern": "\\s*(ferrero)?\\s*rocher"
+    },
+    {
+        "name": "r_egilait",
+        "pattern": "\\s*r\\s*\u00e9gilait"
+    },
+    {
+        "name": "roquefort",
+        "pattern": "\\s*roquefort"
+    },
+    {
+        "name": "riso_gallo",
+        "pattern": "\\s*riso\\s*gallo"
+    },
+    {
+        "name": "reine_claude",
+        "pattern": "\\s*reine\\s*claude"
+    },
+    {
+        "name": "rectangular",
+        "pattern": "\\s*rectangular"
+    },
+    {
+        "name": "reduced",
+        "pattern": "\\s*reduced"
+    },
+    {
+        "name": "rian",
+        "pattern": "\\s*rian"
+    },
+    {
+        "name": "richesmonts",
+        "pattern": "\\s*richesmonts"
+    },
+    {
+        "name": "rigate",
+        "pattern": "\\s*rigate"
+    },
+    {
+        "name": "russian",
+        "pattern": "\\s*russian"
+    },
+    {
+        "name": "special",
+        "pattern": "\\s*special"
+    },
+    {
+        "name": "accompaniment",
+        "pattern": "\\s*accompaniment"
+    },
+    {
+        "name": "refrigerated",
+        "pattern": "\\s*refrigerated0V"
+    },
+    {
+        "name": "rivesaltes",
+        "pattern": "\\s*rivesaltes?"
+    },
+    {
+        "name": "overnight",
+        "pattern": "\\s*overnight"
+    },
+    {
+        "name": "remaining",
+        "pattern": "\\s*remaining"
+    },
+    {
+        "name": "regent's_parks",
+        "pattern": "\\s*regent\\'s\\s*parks"
+    },
+    {
+        "name": "if_possible",
+        "pattern": "\\s*if\\s*possible"
+    },
+    {
+        "name": "rustica_marque_repere",
+        "pattern": "\\s*rustica\\s*(marque)?\\s*(rep(\u00e8|e)re)?"
+    },
+    {
+        "name": "greek",
+        "pattern": "\\s*greek"
+    },
+    {
+        "name": "that_you_will_have",
+        "pattern": "\\s*that\\s*you\\s*will\\s*have"
+    },
+    {
+        "name": "soaking",
+        "pattern": "\\s*soaking"
+    },
+    {
+        "name": "soluble",
+        "pattern": "\\s*soluble"
+    },
+    {
+        "name": "nescaf_e",
+        "pattern": "\\s*nescaf\\s*(\u00e9|e)"
+    },
+    {
+        "name": "st_mamet",
+        "pattern": "\\s*st\\s*mamet"
+    },
+    {
+        "name": "full_fat",
+        "pattern": "\\s*full\\s*fat"
+    },
+    {
+        "name": "semi_skim",
+        "pattern": "\\s*semi\\s*skim"
+    },
+    {
+        "name": "ariak_e",
+        "pattern": "\\s*ariak\\s*(\u00e9|e)"
+    },
+    {
+        "name": "strasbourg",
+        "pattern": "\\s*strasbourg"
+    },
+    {
+        "name": "knackis",
+        "pattern": "\\s*knackis"
+    }
+]

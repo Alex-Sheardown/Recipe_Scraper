@@ -1,0 +1,1 @@
+for /F "tokens=*" %%A in (links.txt) do start cmd.exe @cmd /k python main.py  %%A

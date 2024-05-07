@@ -1,0 +1,474 @@
+[
+    {
+        "pattern": "\\s*dish\\(es\\)"
+    },
+    {
+        "pattern": "\\s*decorative\\s*elements"
+    },
+    {
+        "pattern": "\\s*according"
+    },
+    {
+        "pattern": "\\s*desires"
+    },
+    {
+        "pattern": "it's\\s*good\\s*when\\s*it's\\s*beautiful"
+    },
+    {
+        "pattern": "it\\'s\\s*"
+    },
+    {
+        "pattern": "\\s*when"
+    },
+    {
+        "pattern": "\\s*for\\s*me"
+    },
+    {
+        "pattern": "\\s*for\\s*the\\s*soup\\b"
+    },
+    {
+        "pattern": "\\s*on\\s*top\\s*of\\s*the\\s*lasagna\\b"
+    },
+    {
+        "pattern": "\\s*on\\s*top\\s*of\\s*the\\b"
+    },
+    {
+        "pattern": "\\s*on\\s*top\\s*of\\b"
+    },
+    {
+        "pattern": "\\s*on\\s*top\\b"
+    },
+    {
+        "pattern": "\\s*for\\s*the\\s*energy\\s*bars?\\b"
+    },
+    {
+        "pattern": "\\s*for\\s*the\\s*energy\\b"
+    },
+    {
+        "pattern": "\\s*for\\s*the\\b"
+    },
+    {
+        "pattern": "\\s*for\\s*top\\b"
+    },
+    {
+        "pattern": "\\s*main\\s*course\\b"
+    },
+    {
+        "pattern": "\\s*make\\s*omelette\\b"
+    },
+    {
+        "pattern": "\\s*in\\s*granola\\b"
+    },
+    {
+        "pattern": "\\s*make\\s*the\\s*omelette\\b\\s*to\\s*make\\s*the\\s*meatballs\\b"
+    },
+    {
+        "pattern": "\\s*to\\s*make\\s*the\\b"
+    },
+    {
+        "pattern": "\\s*to\\s*make\\b"
+    },
+    {
+        "pattern": "\\s*to\\s*the\\s*saut\u00e9ed\\s*mushrooms\\b"
+    },
+    {
+        "pattern": "\\s*to\\s*the\\s*saut\u00e9ed\\b"
+    },
+    {
+        "pattern": "\\s*to\\s*the\\b"
+    },
+    {
+        "pattern": "\\s*combine\\b"
+    },
+    {
+        "pattern": "\\s*can\\s*enhance\\s*the\\s*flavor\\s*of\\s*the\\s*soup\\b"
+    },
+    {
+        "pattern": "\\s*for\\s*the\\s*soup\\b"
+    },
+    {
+        "pattern": "\\s*in\\s*the\\s*granola\\s*for\\s*extra\\s*crunch\\b"
+    },
+    {
+        "pattern": "\\s*in\\s*the\\s*granola\\s*for\\s*extra\\b"
+    },
+    {
+        "pattern": "\\s*in\\s*the\\s*granola\\s*for\\b"
+    },
+    {
+        "pattern": "\\s*extra\\s*crunch\\b"
+    },
+    {
+        "pattern": "\\s*for\\s*a\\s*generous\\s*serving\\b"
+    },
+    {
+        "pattern": "\\s*on\\s*the\\s*pizza\\b"
+    },
+    {
+        "pattern": "\\s*long\\s*piece\\b"
+    },
+    {
+        "pattern": "\\s*to\\s*sweeten\\s*the\\s*tea\\s*"
+    },
+    {
+        "pattern": "decorate\\s*the\\s*cake\\s*with\\s*"
+    },
+    {
+        "pattern": "\\s*decorate\\b\\bassembling\\b"
+    },
+    {
+        "pattern": "\\s*for\\s*assembling\\s*tacos\\b"
+    },
+    {
+        "pattern": "\\s*top\\s*with\\b"
+    },
+    {
+        "pattern": "\\s*you'll\\s*need\\b"
+    },
+    {
+        "pattern": "\\bdessert\\b"
+    },
+    {
+        "pattern": "\\s*measure\\s*out\\b"
+    },
+    {
+        "pattern": "\\s*you'll\\s*bneed\\b"
+    },
+    {
+        "pattern": "\\s*with\\s*a\\b"
+    },
+    {
+        "pattern": "\\s*shape\\s*bread\\s*into\\b"
+    },
+    {
+        "pattern": "\\s*bread\\s*into\\b"
+    },
+    {
+        "pattern": "\\barrange\\b"
+    },
+    {
+        "pattern": "\\s*can\\s*enhance\\s*"
+    },
+    {
+        "pattern": "\\badded\\b"
+    },
+    {
+        "pattern": "\\bplatter\\b"
+    },
+    {
+        "pattern": "\\barrange\\b"
+    },
+    {
+        "pattern": "\\bplatter\\b"
+    },
+    {
+        "pattern": "\\bsweeten\\b"
+    },
+    {
+        "pattern": "\\bthem\\b"
+    },
+    {
+        "pattern": "\\bcarefully\\b"
+    },
+    {
+        "pattern": "\\binclude\\b"
+    },
+    {
+        "pattern": "\\b(bowl)\\s*of\\b"
+    },
+    {
+        "pattern": "\\bused\\b"
+    },
+    {
+        "pattern": "\\bshe\\b"
+    },
+    {
+        "pattern": "\\bhe\\b"
+    },
+    {
+        "pattern": "\\badd\\b"
+    },
+    {
+        "pattern": "\\bfor\\b"
+    },
+    {
+        "pattern": "\\bthe\\b"
+    },
+    {
+        "pattern": "\\bto\\s*(stuff|cook)\\b"
+    },
+    {
+        "pattern": "\\bpan\\b"
+    },
+    {
+        "pattern": "\\bon\\b"
+    },
+    {
+        "pattern": "\\bhis\\b"
+    },
+    {
+        "pattern": "\\btea\\b"
+    },
+    {
+        "pattern": "\\buse\\b"
+    },
+    {
+        "pattern": "\\blay\\b"
+    },
+    {
+        "pattern": "\\bwith\\b"
+    },
+    {
+        "pattern": "\\bcreate\\b"
+    },
+    {
+        "pattern": "\\blayer\\b"
+    },
+    {
+        "pattern": "\\bform\\b"
+    },
+    {
+        "pattern": "\\bstack\\b"
+    },
+    {
+        "pattern": "\\babout\\b"
+    },
+    {
+        "pattern": "\\binto\\b"
+    },
+    {
+        "pattern": "\\bshape\\b"
+    },
+    {
+        "pattern": "\\bthick\\b"
+    },
+    {
+        "pattern": "\\s*weighting\\b"
+    },
+    {
+        "pattern": "\\bweighing\\b"
+    },
+    {
+        "pattern": "\\s*from\\s*mandy,\\s*done\\\\b"
+    },
+    {
+        "pattern": "\\s*,\\s*done\\b"
+    },
+    {
+        "pattern": "\\s*portioned\\s*in\\b"
+    },
+    {
+        "pattern": "\\s*,?_?\\s*approximately_?\\b"
+    },
+    {
+        "pattern": "\\b\u0153\\b"
+    },
+    {
+        "pattern": "^\\s*and\\b"
+    },
+    {
+        "pattern": "\\s*approx.\\b"
+    },
+    {
+        "pattern": "\\b(\\s*and\\s*)\\s*$"
+    },
+    {
+        "pattern": "\\b(\\s*or\\s*)\\s*$"
+    },
+    {
+        "pattern": "^\\s*at\\b"
+    },
+    {
+        "pattern": "^\\s*by\\b\\s*(\\(\\s*taste\\s*\\)|taste)\\b"
+    },
+    {
+        "pattern": "\\s*\\.?amount\\b"
+    },
+    {
+        "pattern": "\\s*roux\\b"
+    },
+    {
+        "pattern": "\\babout\\b"
+    },
+    {
+        "pattern": "\\bof\\b"
+    },
+    {
+        "pattern": "ingredients?"
+    },
+    {
+        "pattern": "from"
+    },
+    {
+        "pattern": "and\\s*other\\s*decorations?"
+    },
+    {
+        "pattern": "don\u2019?'?t\\s*forget\\s*"
+    },
+    {
+        "pattern": "see\\s*tip"
+    },
+    {
+        "pattern": "cooking"
+    },
+    {
+        "pattern": "amount\\s*your\\s*liking!"
+    },
+    {
+        "pattern": "oriental\\s*grocery\\s*stores"
+    },
+    {
+        "pattern": "\\s*st\\s*mor\u00eat"
+    },
+    {
+        "pattern": ",\\s*,\\s*."
+    },
+    {
+        "pattern": "by\\s*grating\\s*chocolate\\s*peeler\\s*"
+    },
+    {
+        "pattern": "\\s*supermarket\\b"
+    },
+    {
+        "pattern": "\\s*be\\s*aware\\b"
+    },
+    {
+        "pattern": ",?however,?"
+    },
+    {
+        "pattern": "\\s*that\\s*moquec\\s*is\\s*eaten\\s*very\\b"
+    },
+    {
+        "pattern": "\\s*childhood\\b"
+    },
+   
+    {
+        "pattern": "\\s*in\\s*supermarkets\\s*or\\s*barry\\s*in\\s*specialist\\s*stores"
+    },
+    {
+        "pattern": "sold\\s*in\\s*supermarkets"
+    },
+    {
+        "pattern": "\\s*between\\b"
+    },
+    {
+        "pattern": "\\s*if\\s*you\\s*cannot\\s*find\\s*this\\s*cheese,?"
+    },
+    {
+        "pattern": "\\s*etc\\b"
+    },
+    {
+        "pattern": "\\bextra?\\b.*$"
+    },
+    {
+        "pattern": "\\bextra\\b"
+    },
+    {
+        "pattern": "\\s*\\(\\s*or"
+    },
+    {
+        "pattern": "\\(\\s*fat"
+    },
+    {
+        "pattern": "\\s*made\\s*above"
+    },
+    {
+        "pattern": "\\s*it\\s*all\\s*depends\\s*quantity"
+    },
+    {
+        "pattern": "\\s*ready\\s*to\\s*"
+    },
+    {
+        "pattern": "\\s*few"
+    },
+    {
+        "pattern": "\\s*cooked\\s*at\\s*home\\s*or\\s*in\\s*a\\s*can\\s*"
+    },
+    {
+        "pattern": "\\s*to\\s*your"
+    },
+    {
+        "pattern": "\\s*in\\s*this\\s*case\\s*you\\s*need\\s*"
+    },
+    {
+        "pattern": "\\s*in\\s*asia?n?\\s*grocery\\s*stores\\s*"
+    },
+    {
+        "pattern": "\\s*strength\\s*coloring\\s*"
+    },
+    {
+        "pattern": "\\s*brand"
+    },
+    {
+        "pattern": "\\s*made\\s*this\\s*summer"
+    },
+    {
+        "pattern": "\\s*put\\s*in\\s*"
+    },
+    {
+        "pattern": "\\s*size"
+    },
+    {
+        "pattern": "\\s*diagonally"
+    },
+    {
+        "pattern": "\\s*but\\s*as"
+    },
+    {
+        "pattern": "\\s*you\\s*have"
+    },
+    {
+        "pattern": "\\s*dark/"
+    },
+    {
+        "pattern": "\\s*they\\s*are"
+    },
+    {
+        "pattern": "\\s*and\\s*very"
+    },
+    {
+        "pattern": "\\s*whatever\\s*you\\s*have\\s*will\\s*do"
+    },
+    {
+        "pattern": "\\s*store"
+    },
+    {
+        "pattern": "\\s*siphon"
+    },
+    {
+        "pattern": "\\s*and\\s*keep\\s*theasurement"
+    },
+    {
+        "pattern": "\\s*which\\s*will\\s*reveal\\s*all\\s*its\\s*"
+    },
+    {
+        "pattern": "\\s*otherwise"
+    },
+    {
+        "pattern": "\\s*failing\\s*that"
+    },
+    {
+        "pattern": "\\s*bring\\s*second\\s*in\\s*case"
+    },
+    {
+        "pattern": "\\s*desired\\s*consistency"
+    },
+    {
+        "pattern": "\\s*size"
+    },
+    {
+        "pattern": "\\s*total"
+    },
+    {
+        "pattern": "\\s*left"
+    },
+    {
+        "pattern": "\\s*quick"
+    },
+    {
+        "pattern": "\\s*\\.\\s*\\.\\s*\\.\\s*"
+    },
+    {
+        "pattern": "\\(\\s*\\,*\\s*\\.*\\)"
+    }
+]
