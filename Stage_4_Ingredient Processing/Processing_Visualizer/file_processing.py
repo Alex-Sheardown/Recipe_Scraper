@@ -1,4 +1,5 @@
 import json
+import re
 import pandas as pd
 from collections import Counter
 
@@ -7,12 +8,15 @@ sys.path.insert(1, 'G:\Code\Recipe Project\Stage_3_Database and Cleaning\Table_O
 
 from  process_ingredient import raw_translated_ingredient
 
+# Convert list to string format
+def list_to_string(lst):
+    return ', '.join(lst)
 
 def word_counter_in_json(json_file, list_key):
     # Initialize an empty Counter object to store word counts
     word_counter = Counter()
     first_occurrence_ids = {}
-    processing_comparison_df = pd.DataFrame(columns=['Original_Word', 'Processed_Word'])
+    processing_comparison_df = pd.DataFrame(columns=['Original_Word', 'Processed_Word', "modifiers", "measurements"])
     # Open the JSON file and process each line (each line is a JSON object)
     count = 0
     with open(json_file, 'r') as f:
@@ -28,8 +32,13 @@ def word_counter_in_json(json_file, list_key):
                     item_break_down = raw_translated_ingredient(item, False)
                     if len(item_break_down) > 0 :
                         fmo, fme, text, mod_hash, name, portion, mpis, ignore_this = item_break_down[0]
-                        
-                        processing_comparison_df.loc[len(processing_comparison_df)]  = {'Original_Word': item, 'Processed_Word': text}
+                        #print("modifiers:", fmo,", measurements:", fme)
+                        list_of_Ingredients = [t[0] for t in fme]
+                        print(list_of_Ingredients)
+                        print(list_to_string(list_of_Ingredients))
+                        #processing_comparison_df.loc[len(processing_comparison_df)]  = {'Original_Word': item, 'Processed_Word': text, "modifiers:": fmo,", measurements:": list_of_Ingredients}
+                        processing_comparison_df.loc[len(processing_comparison_df)]  = {'Original_Word': item, 'Processed_Word': text, "modifiers": list_to_string(fmo), "measurements": str(list_to_string(list_of_Ingredients))}
+                        #processing_comparison_df.loc[len(processing_comparison_df)]  = {'Original_Word': item, 'Processed_Word': text}
                         item = text
                         #print(item)
                     else:
@@ -67,4 +76,46 @@ def filter_word(word_df, filter_word):
     # Filter the DataFrame based on whether the original word contains the filter word
     filtered_df = word_df[word_df['Original_Word'].str.contains(filter_word)].copy()
 
+    return filtered_df
+
+
+def filter_patterns_based_on_strings(df_patterns, df_strings, pattern_column, string_column):
+    # Extract regex patterns from df_patterns
+    patterns = df_patterns[pattern_column].tolist()
+    
+    # Initialize a list to hold the indices of matching patterns
+    matching_indices = []
+
+    # Create a copy of df_strings to work on
+    df_strings_copy = df_strings.copy()
+    
+    # Iterate over each pattern
+    for index, pattern in enumerate(patterns):
+        # Check if the pattern matches any string in df_strings_copy
+        for i, string in df_strings_copy[string_column].items():
+            if re.search(pattern, string):
+                # Update the string with the applied pattern
+                updated_string = re.sub(pattern, '', string)
+                df_strings_copy.at[i, string_column] = updated_string
+                matching_indices.append(index)
+    
+    # Remove duplicates from matching_indices while preserving order
+    matching_indices = list(dict.fromkeys(matching_indices))
+    
+    # Filter df_patterns based on matching indices
+    filtered_df = df_patterns.loc[matching_indices]
+    
+    return filtered_df
+
+
+
+def filter_individual_names(names_df, processing_df, name_column, processing_column):
+    # Collect all unique modifiers from the processing_comparison_df
+    all_modifiers = set()
+    for modifiers in processing_df[processing_column]:
+        for modifier in modifiers.split(', '):
+            all_modifiers.add(modifier)
+    
+    # Filter the individual names DataFrame based on the collected modifiers
+    filtered_df = names_df[names_df[name_column].isin(all_modifiers)]
     return filtered_df
