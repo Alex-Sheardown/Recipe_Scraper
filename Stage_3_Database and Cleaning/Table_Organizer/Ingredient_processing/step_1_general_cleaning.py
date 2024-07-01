@@ -173,16 +173,26 @@ def process_measurement(input_text):
 
 
 #Stage 3
-def load_patterns_from_json(filename):
+def load_patterns_from_json(filename, test_status):
     with open(filename, 'r') as json_file:
         patterns_data = json.load(json_file)
-    patterns = [pattern_entry["pattern"] for pattern_entry in patterns_data]
+    patterns = []
+    with open(filename, 'r') as json_file:
+        patterns_data = json.load(json_file)
+    for pattern_entry in patterns_data:
+        pattern = pattern_entry["pattern"]
+        status = pattern_entry["status"]
+        if (test_status == True and status != 1) or (test_status == False and status == 0) :
+            patterns.append(pattern)
     return patterns
 
-def remove_unnecessary_data(text, patterns_filename):
+
+
+def remove_unnecessary_data(text, patterns_filename, test_status):
     text = " " + text
-    patterns = load_patterns_from_json(patterns_filename)
+    patterns = load_patterns_from_json(patterns_filename, test_status)
     for pattern in patterns:
+        #print(pattern)
         text = re.sub(pattern, '', text, re.IGNORECASE)
     text = ' '.join(text.split())
     return text

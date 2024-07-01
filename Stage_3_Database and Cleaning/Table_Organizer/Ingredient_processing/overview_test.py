@@ -95,7 +95,7 @@ if full_process_specific_test:
     #text = "1 tsp cake yeast (for me gluten free)"
     #text = "3 packets of m&m's"
     #13464
-    result_list = raw_translated_ingredient(text, True)
+    result_list = raw_translated_ingredient(text, True, False)
     count = 1
     for result in result_list:
         fmo, fme, text, mod_hash, name, portion, mpis, ignore_this = result

@@ -1,474 +1,787 @@
 [
     {
-        "pattern": "\\s*dish\\(es\\)"
+        "pattern": "\\s*dish\\(es\\)",
+        "status": 0,
+        "id": 0
     },
     {
-        "pattern": "\\s*decorative\\s*elements"
+        "pattern": "\\s*decorative\\s*elements",
+        "status": 0,
+        "id": 1
     },
     {
-        "pattern": "\\s*according"
+        "pattern": "\\s*according",
+        "status": 0,
+        "id": 2
     },
     {
-        "pattern": "\\s*desires"
+        "pattern": "\\s*desires",
+        "status": 0,
+        "id": 3
     },
     {
-        "pattern": "it's\\s*good\\s*when\\s*it's\\s*beautiful"
+        "pattern": "it's\\s*good\\s*when\\s*it's\\s*beautiful",
+        "status": 0,
+        "id": 4
     },
     {
-        "pattern": "it\\'s\\s*"
+        "pattern": "it\\'s\\s*",
+        "status": 0,
+        "id": 5
     },
     {
-        "pattern": "\\s*when"
+        "pattern": "\\s*when",
+        "status": 0,
+        "id": 6
     },
     {
-        "pattern": "\\s*for\\s*me"
+        "pattern": "\\s*for\\s*me",
+        "status": 0,
+        "id": 7
     },
     {
-        "pattern": "\\s*for\\s*the\\s*soup\\b"
+        "pattern": "\\s*for\\s*the\\s*soup\\b",
+        "status": 0,
+        "id": 8
     },
     {
-        "pattern": "\\s*on\\s*top\\s*of\\s*the\\s*lasagna\\b"
+        "pattern": "\\s*on\\s*top\\s*of\\s*the\\s*lasagna\\b",
+        "status": 0,
+        "id": 9
     },
     {
-        "pattern": "\\s*on\\s*top\\s*of\\s*the\\b"
+        "pattern": "\\s*on\\s*top\\s*of\\s*the\\b",
+        "status": 0,
+        "id": 10
     },
     {
-        "pattern": "\\s*on\\s*top\\s*of\\b"
+        "pattern": "\\s*on\\s*top\\s*of\\b",
+        "status": 0,
+        "id": 11
     },
     {
-        "pattern": "\\s*on\\s*top\\b"
+        "pattern": "\\s*on\\s*top\\b",
+        "status": 0,
+        "id": 12
     },
     {
-        "pattern": "\\s*for\\s*the\\s*energy\\s*bars?\\b"
+        "pattern": "\\s*for\\s*the\\s*energy\\s*bars?\\b",
+        "status": 0,
+        "id": 13
     },
     {
-        "pattern": "\\s*for\\s*the\\s*energy\\b"
+        "pattern": "\\s*for\\s*the\\s*energy\\b",
+        "status": 0,
+        "id": 14
     },
     {
-        "pattern": "\\s*for\\s*the\\b"
+        "pattern": "\\s*for\\s*the\\b",
+        "status": 0,
+        "id": 15
     },
     {
-        "pattern": "\\s*for\\s*top\\b"
+        "pattern": "\\s*for\\s*top\\b",
+        "status": 0,
+        "id": 16
     },
     {
-        "pattern": "\\s*main\\s*course\\b"
+        "pattern": "\\s*main\\s*course\\b",
+        "status": 0,
+        "id": 17
     },
     {
-        "pattern": "\\s*make\\s*omelette\\b"
+        "pattern": "\\s*make\\s*omelette\\b",
+        "status": 0,
+        "id": 18
     },
     {
-        "pattern": "\\s*in\\s*granola\\b"
+        "pattern": "\\s*in\\s*granola\\b",
+        "status": 0,
+        "id": 19
     },
     {
-        "pattern": "\\s*make\\s*the\\s*omelette\\b\\s*to\\s*make\\s*the\\s*meatballs\\b"
+        "pattern": "\\s*make\\s*the\\s*omelette\\b\\s*to\\s*make\\s*the\\s*meatballs\\b",
+        "status": 0,
+        "id": 20
     },
     {
-        "pattern": "\\s*to\\s*make\\s*the\\b"
+        "pattern": "\\s*to\\s*make\\s*the\\b",
+        "status": 0,
+        "id": 21
     },
     {
-        "pattern": "\\s*to\\s*make\\b"
+        "pattern": "\\s*to\\s*make\\b",
+        "status": 0,
+        "id": 22
     },
     {
-        "pattern": "\\s*to\\s*the\\s*saut\u00e9ed\\s*mushrooms\\b"
+        "pattern": "\\s*to\\s*the\\s*saut\u00e9ed\\s*mushrooms\\b",
+        "status": 0,
+        "id": 23
     },
     {
-        "pattern": "\\s*to\\s*the\\s*saut\u00e9ed\\b"
+        "pattern": "\\s*to\\s*the\\s*saut\u00e9ed\\b",
+        "status": 0,
+        "id": 24
     },
     {
-        "pattern": "\\s*to\\s*the\\b"
+        "pattern": "\\s*to\\s*the\\b",
+        "status": 0,
+        "id": 25
     },
     {
-        "pattern": "\\s*combine\\b"
+        "pattern": "\\s*combine\\b",
+        "status": 0,
+        "id": 26
     },
     {
-        "pattern": "\\s*can\\s*enhance\\s*the\\s*flavor\\s*of\\s*the\\s*soup\\b"
+        "pattern": "\\s*can\\s*enhance\\s*the\\s*flavor\\s*of\\s*the\\s*soup\\b",
+        "status": 0,
+        "id": 27
     },
     {
-        "pattern": "\\s*for\\s*the\\s*soup\\b"
+        "pattern": "\\s*for\\s*the\\s*soup\\b",
+        "status": 0,
+        "id": 28
     },
     {
-        "pattern": "\\s*in\\s*the\\s*granola\\s*for\\s*extra\\s*crunch\\b"
+        "pattern": "\\s*in\\s*the\\s*granola\\s*for\\s*extra\\s*crunch\\b",
+        "status": 0,
+        "id": 29
     },
     {
-        "pattern": "\\s*in\\s*the\\s*granola\\s*for\\s*extra\\b"
+        "pattern": "\\s*in\\s*the\\s*granola\\s*for\\s*extra\\b",
+        "status": 0,
+        "id": 30
     },
     {
-        "pattern": "\\s*in\\s*the\\s*granola\\s*for\\b"
+        "pattern": "\\s*in\\s*the\\s*granola\\s*for\\b",
+        "status": 0,
+        "id": 31
     },
     {
-        "pattern": "\\s*extra\\s*crunch\\b"
+        "pattern": "\\s*extra\\s*crunch\\b",
+        "status": 0,
+        "id": 32
     },
     {
-        "pattern": "\\s*for\\s*a\\s*generous\\s*serving\\b"
+        "pattern": "\\s*for\\s*a\\s*generous\\s*serving\\b",
+        "status": 0,
+        "id": 33
     },
     {
-        "pattern": "\\s*on\\s*the\\s*pizza\\b"
+        "pattern": "\\s*on\\s*the\\s*pizza\\b",
+        "status": 0,
+        "id": 34
     },
     {
-        "pattern": "\\s*long\\s*piece\\b"
+        "pattern": "\\s*long\\s*piece\\b",
+        "status": 0,
+        "id": 35
     },
     {
-        "pattern": "\\s*to\\s*sweeten\\s*the\\s*tea\\s*"
+        "pattern": "\\s*to\\s*sweeten\\s*the\\s*tea\\s*",
+        "status": 0,
+        "id": 36
     },
     {
-        "pattern": "decorate\\s*the\\s*cake\\s*with\\s*"
+        "pattern": "decorate\\s*the\\s*cake\\s*with\\s*",
+        "status": 0,
+        "id": 37
     },
     {
-        "pattern": "\\s*decorate\\b\\bassembling\\b"
+        "pattern": "\\s*decorate\\b\\bassembling\\b",
+        "status": 0,
+        "id": 38
     },
     {
-        "pattern": "\\s*for\\s*assembling\\s*tacos\\b"
+        "pattern": "\\s*for\\s*assembling\\s*tacos\\b",
+        "status": 0,
+        "id": 39
     },
     {
-        "pattern": "\\s*top\\s*with\\b"
+        "pattern": "\\s*top\\s*with\\b",
+        "status": 0,
+        "id": 40
     },
     {
-        "pattern": "\\s*you'll\\s*need\\b"
+        "pattern": "\\s*you'll\\s*need\\b",
+        "status": 0,
+        "id": 41
     },
     {
-        "pattern": "\\bdessert\\b"
+        "pattern": "\\bdessert\\b",
+        "status": 0,
+        "id": 42
     },
     {
-        "pattern": "\\s*measure\\s*out\\b"
+        "pattern": "\\s*measure\\s*out\\b",
+        "status": 0,
+        "id": 43
     },
     {
-        "pattern": "\\s*you'll\\s*bneed\\b"
+        "pattern": "\\s*you'll\\s*bneed\\b",
+        "status": 0,
+        "id": 44
     },
     {
-        "pattern": "\\s*with\\s*a\\b"
+        "pattern": "\\s*with\\s*a\\b",
+        "status": 0,
+        "id": 45
     },
     {
-        "pattern": "\\s*shape\\s*bread\\s*into\\b"
+        "pattern": "\\s*shape\\s*bread\\s*into\\b",
+        "status": 0,
+        "id": 46
     },
     {
-        "pattern": "\\s*bread\\s*into\\b"
+        "pattern": "\\s*bread\\s*into\\b",
+        "status": 0,
+        "id": 47
     },
     {
-        "pattern": "\\barrange\\b"
+        "pattern": "\\barrange\\b",
+        "status": 0,
+        "id": 48
     },
     {
-        "pattern": "\\s*can\\s*enhance\\s*"
+        "pattern": "\\s*can\\s*enhance\\s*",
+        "status": 0,
+        "id": 49
     },
     {
-        "pattern": "\\badded\\b"
+        "pattern": "\\badded\\b",
+        "status": 0,
+        "id": 50
     },
     {
-        "pattern": "\\bplatter\\b"
+        "pattern": "\\bplatter\\b",
+        "status": 0,
+        "id": 51
     },
     {
-        "pattern": "\\barrange\\b"
+        "pattern": "\\barrange\\b",
+        "status": 0,
+        "id": 52
     },
     {
-        "pattern": "\\bplatter\\b"
+        "pattern": "\\bplatter\\b",
+        "status": 0,
+        "id": 53
     },
     {
-        "pattern": "\\bsweeten\\b"
+        "pattern": "\\bsweeten\\b",
+        "status": 0,
+        "id": 54
     },
     {
-        "pattern": "\\bthem\\b"
+        "pattern": "\\bthem\\b",
+        "status": 0,
+        "id": 55
     },
     {
-        "pattern": "\\bcarefully\\b"
+        "pattern": "\\bcarefully\\b",
+        "status": 0,
+        "id": 56
     },
     {
-        "pattern": "\\binclude\\b"
+        "pattern": "\\binclude\\b",
+        "status": 0,
+        "id": 57
     },
     {
-        "pattern": "\\b(bowl)\\s*of\\b"
+        "pattern": "\\b(bowl)\\s*of\\b",
+        "status": 0,
+        "id": 58
     },
     {
-        "pattern": "\\bused\\b"
+        "pattern": "\\bused\\b",
+        "status": 0,
+        "id": 59
     },
     {
-        "pattern": "\\bshe\\b"
+        "pattern": "\\bshe\\b",
+        "status": 0,
+        "id": 60
     },
     {
-        "pattern": "\\bhe\\b"
+        "pattern": "\\bhe\\b",
+        "status": 0,
+        "id": 61
     },
     {
-        "pattern": "\\badd\\b"
+        "pattern": "\\badd\\b",
+        "status": 0,
+        "id": 62
     },
     {
-        "pattern": "\\bfor\\b"
+        "pattern": "\\bfor\\b",
+        "status": 0,
+        "id": 63
     },
     {
-        "pattern": "\\bthe\\b"
+        "pattern": "\\bthe\\b",
+        "status": 0,
+        "id": 64
     },
     {
-        "pattern": "\\bto\\s*(stuff|cook)\\b"
+        "pattern": "\\bto\\s*(stuff|cook)\\b",
+        "status": 0,
+        "id": 65
     },
     {
-        "pattern": "\\bpan\\b"
+        "pattern": "\\bpan\\b",
+        "status": 0,
+        "id": 66
     },
     {
-        "pattern": "\\bon\\b"
+        "pattern": "\\bon\\b",
+        "status": 0,
+        "id": 67
     },
     {
-        "pattern": "\\bhis\\b"
+        "pattern": "\\bhis\\b",
+        "status": 0,
+        "id": 68
     },
     {
-        "pattern": "\\btea\\b"
+        "pattern": "\\btea\\b",
+        "status": 0,
+        "id": 69
     },
     {
-        "pattern": "\\buse\\b"
+        "pattern": "\\buse\\b",
+        "status": 0,
+        "id": 70
     },
     {
-        "pattern": "\\blay\\b"
+        "pattern": "\\blay\\b",
+        "status": 0,
+        "id": 71
     },
     {
-        "pattern": "\\bwith\\b"
+        "pattern": "\\bwith\\b",
+        "status": 0,
+        "id": 72
     },
     {
-        "pattern": "\\bcreate\\b"
+        "pattern": "\\bcreate\\b",
+        "status": 0,
+        "id": 73
     },
     {
-        "pattern": "\\blayer\\b"
+        "pattern": "\\blayer\\b",
+        "status": 0,
+        "id": 74
     },
     {
-        "pattern": "\\bform\\b"
+        "pattern": "\\bform\\b",
+        "status": 0,
+        "id": 75
     },
     {
-        "pattern": "\\bstack\\b"
+        "pattern": "\\bstack\\b",
+        "status": 0,
+        "id": 76
     },
     {
-        "pattern": "\\babout\\b"
+        "pattern": "\\babout\\b",
+        "status": 0,
+        "id": 77
     },
     {
-        "pattern": "\\binto\\b"
+        "pattern": "\\binto\\b",
+        "status": 0,
+        "id": 78
     },
     {
-        "pattern": "\\bshape\\b"
+        "pattern": "\\bshape\\b",
+        "status": 0,
+        "id": 79
     },
     {
-        "pattern": "\\bthick\\b"
+        "pattern": "\\bthick\\b",
+        "status": 0,
+        "id": 80
     },
     {
-        "pattern": "\\s*weighting\\b"
+        "pattern": "\\s*weighting\\b",
+        "status": 0,
+        "id": 81
     },
     {
-        "pattern": "\\bweighing\\b"
+        "pattern": "\\bweighing\\b",
+        "status": 0,
+        "id": 82
     },
     {
-        "pattern": "\\s*from\\s*mandy,\\s*done\\\\b"
+        "pattern": "\\s*from\\s*mandy,\\s*done\\\\b",
+        "status": 0,
+        "id": 83
     },
     {
-        "pattern": "\\s*,\\s*done\\b"
+        "pattern": "\\s*,\\s*done\\b",
+        "status": 0,
+        "id": 84
     },
     {
-        "pattern": "\\s*portioned\\s*in\\b"
+        "pattern": "\\s*portioned\\s*in\\b",
+        "status": 0,
+        "id": 85
     },
     {
-        "pattern": "\\s*,?_?\\s*approximately_?\\b"
+        "pattern": "\\s*,?_?\\s*approximately_?\\b",
+        "status": 0,
+        "id": 86
     },
     {
-        "pattern": "\\b\u0153\\b"
+        "pattern": "\\b\u0153\\b",
+        "status": 0,
+        "id": 87
     },
     {
-        "pattern": "^\\s*and\\b"
+        "pattern": "^\\s*and\\b",
+        "status": 0,
+        "id": 88
     },
     {
-        "pattern": "\\s*approx.\\b"
+        "pattern": "\\s*approx.\\b",
+        "status": 0,
+        "id": 89
     },
     {
-        "pattern": "\\b(\\s*and\\s*)\\s*$"
+        "pattern": "\\b(\\s*and\\s*)\\s*$",
+        "status": 0,
+        "id": 90
     },
     {
-        "pattern": "\\b(\\s*or\\s*)\\s*$"
+        "pattern": "\\b(\\s*or\\s*)\\s*$",
+        "status": 0,
+        "id": 91
     },
     {
-        "pattern": "^\\s*at\\b"
+        "pattern": "^\\s*at\\b",
+        "status": 0,
+        "id": 92
     },
     {
-        "pattern": "^\\s*by\\b\\s*(\\(\\s*taste\\s*\\)|taste)\\b"
+        "pattern": "^\\s*by\\b\\s*(\\(\\s*taste\\s*\\)|taste)\\b",
+        "status": 0,
+        "id": 93
     },
     {
-        "pattern": "\\s*\\.?amount\\b"
+        "pattern": "\\s*\\.?amount\\b",
+        "status": 0,
+        "id": 94
     },
     {
-        "pattern": "\\s*roux\\b"
+        "pattern": "\\s*roux\\b",
+        "status": 0,
+        "id": 95
     },
     {
-        "pattern": "\\babout\\b"
+        "pattern": "\\babout\\b",
+        "status": 0,
+        "id": 96
     },
     {
-        "pattern": "\\bof\\b"
+        "pattern": "ingredients?",
+        "status": 0,
+        "id": 97
     },
     {
-        "pattern": "ingredients?"
+        "pattern": "from",
+        "status": 0,
+        "id": 98
     },
     {
-        "pattern": "from"
+        "pattern": "and\\s*other\\s*decorations?",
+        "status": 0,
+        "id": 99
     },
     {
-        "pattern": "and\\s*other\\s*decorations?"
+        "pattern": "don\u2019?'?t\\s*forget\\s*",
+        "status": 0,
+        "id": 100
     },
     {
-        "pattern": "don\u2019?'?t\\s*forget\\s*"
+        "pattern": "see\\s*tip",
+        "status": 0,
+        "id": 101
     },
     {
-        "pattern": "see\\s*tip"
+        "pattern": "cooking",
+        "status": 0,
+        "id": 102
     },
     {
-        "pattern": "cooking"
+        "pattern": "amount\\s*your\\s*liking!",
+        "status": 0,
+        "id": 103
     },
     {
-        "pattern": "amount\\s*your\\s*liking!"
+        "pattern": "oriental\\s*grocery\\s*stores",
+        "status": 0,
+        "id": 104
     },
     {
-        "pattern": "oriental\\s*grocery\\s*stores"
+        "pattern": "\\s*st\\s*mor\u00eat",
+        "status": 0,
+        "id": 105
     },
     {
-        "pattern": "\\s*st\\s*mor\u00eat"
+        "pattern": ",\\s*,\\s*.",
+        "status": 0,
+        "id": 106
     },
     {
-        "pattern": ",\\s*,\\s*."
+        "pattern": "by\\s*grating\\s*chocolate\\s*peeler\\s*",
+        "status": 0,
+        "id": 107
     },
     {
-        "pattern": "by\\s*grating\\s*chocolate\\s*peeler\\s*"
+        "pattern": "\\s*supermarket\\b",
+        "status": 0,
+        "id": 108
     },
     {
-        "pattern": "\\s*supermarket\\b"
+        "pattern": "\\s*be\\s*aware\\b",
+        "status": 0,
+        "id": 109
     },
     {
-        "pattern": "\\s*be\\s*aware\\b"
+        "pattern": ",?however,?",
+        "status": 0,
+        "id": 110
     },
     {
-        "pattern": ",?however,?"
+        "pattern": "\\s*that\\s*moquec\\s*is\\s*eaten\\s*very\\b",
+        "status": 0,
+        "id": 111
     },
     {
-        "pattern": "\\s*that\\s*moquec\\s*is\\s*eaten\\s*very\\b"
+        "pattern": "\\s*childhood\\b",
+        "status": 0,
+        "id": 112
     },
     {
-        "pattern": "\\s*childhood\\b"
+        "pattern": "\\s*in\\s*supermarkets\\s*or\\s*barry\\s*in\\s*specialist\\s*stores",
+        "status": 0,
+        "id": 113
     },
-   
     {
-        "pattern": "\\s*in\\s*supermarkets\\s*or\\s*barry\\s*in\\s*specialist\\s*stores"
+        "pattern": "sold\\s*in\\s*supermarkets",
+        "status": 0,
+        "id": 114
     },
     {
-        "pattern": "sold\\s*in\\s*supermarkets"
+        "pattern": "\\s*between\\b",
+        "status": 0,
+        "id": 115
     },
     {
-        "pattern": "\\s*between\\b"
+        "pattern": "\\s*if\\s*you\\s*cannot\\s*find\\s*this\\s*cheese,?",
+        "status": 0,
+        "id": 116
     },
     {
-        "pattern": "\\s*if\\s*you\\s*cannot\\s*find\\s*this\\s*cheese,?"
+        "pattern": "\\s*etc\\b",
+        "status": 0,
+        "id": 117
     },
     {
-        "pattern": "\\s*etc\\b"
+        "pattern": "\\bextra?\\b.*$",
+        "status": 0,
+        "id": 118
     },
     {
-        "pattern": "\\bextra?\\b.*$"
+        "pattern": "\\bextra\\b",
+        "status": 0,
+        "id": 119
     },
     {
-        "pattern": "\\bextra\\b"
+        "pattern": "\\s*\\(\\s*or",
+        "status": 0,
+        "id": 120
     },
     {
-        "pattern": "\\s*\\(\\s*or"
+        "pattern": "\\(\\s*fat",
+        "status": 0,
+        "id": 121
     },
     {
-        "pattern": "\\(\\s*fat"
+        "pattern": "\\s*made\\s*above",
+        "status": 0,
+        "id": 122
     },
     {
-        "pattern": "\\s*made\\s*above"
+        "pattern": "\\s*it\\s*all\\s*depends\\s*quantity",
+        "status": 0,
+        "id": 123
     },
     {
-        "pattern": "\\s*it\\s*all\\s*depends\\s*quantity"
+        "pattern": "\\s*ready\\s*to\\s*",
+        "status": 0,
+        "id": 124
     },
     {
-        "pattern": "\\s*ready\\s*to\\s*"
+        "pattern": "\\s*few",
+        "status": 0,
+        "id": 125
     },
     {
-        "pattern": "\\s*few"
+        "pattern": "\\s*cooked\\s*at\\s*home\\s*or\\s*in\\s*a\\s*can\\s*",
+        "status": 0,
+        "id": 126
     },
     {
-        "pattern": "\\s*cooked\\s*at\\s*home\\s*or\\s*in\\s*a\\s*can\\s*"
+        "pattern": "\\s*to\\s*your",
+        "status": 0,
+        "id": 127
     },
     {
-        "pattern": "\\s*to\\s*your"
+        "pattern": "\\s*in\\s*this\\s*case\\s*you\\s*need\\s*",
+        "status": 0,
+        "id": 128
     },
     {
-        "pattern": "\\s*in\\s*this\\s*case\\s*you\\s*need\\s*"
+        "pattern": "\\s*in\\s*asia?n?\\s*grocery\\s*stores\\s*",
+        "status": 0,
+        "id": 129
     },
     {
-        "pattern": "\\s*in\\s*asia?n?\\s*grocery\\s*stores\\s*"
+        "pattern": "\\s*strength\\s*coloring\\s*",
+        "status": 0,
+        "id": 130
     },
     {
-        "pattern": "\\s*strength\\s*coloring\\s*"
+        "pattern": "\\s*brand",
+        "status": 0,
+        "id": 131
     },
     {
-        "pattern": "\\s*brand"
+        "pattern": "\\s*made\\s*this\\s*summer",
+        "status": 0,
+        "id": 132
     },
     {
-        "pattern": "\\s*made\\s*this\\s*summer"
+        "pattern": "\\s*put\\s*in\\s*",
+        "status": 0,
+        "id": 133
     },
     {
-        "pattern": "\\s*put\\s*in\\s*"
+        "pattern": "\\s*size",
+        "status": 0,
+        "id": 134
     },
     {
-        "pattern": "\\s*size"
+        "pattern": "\\s*diagonally",
+        "status": 0,
+        "id": 135
     },
     {
-        "pattern": "\\s*diagonally"
+        "pattern": "\\s*but\\s*as",
+        "status": 0,
+        "id": 136
     },
     {
-        "pattern": "\\s*but\\s*as"
+        "pattern": "\\s*you\\s*have",
+        "status": 0,
+        "id": 137
     },
     {
-        "pattern": "\\s*you\\s*have"
+        "pattern": "\\s*dark/",
+        "status": 0,
+        "id": 138
     },
     {
-        "pattern": "\\s*dark/"
+        "pattern": "\\s*they\\s*are",
+        "status": 0,
+        "id": 139
     },
     {
-        "pattern": "\\s*they\\s*are"
+        "pattern": "\\s*and\\s*very",
+        "status": 0,
+        "id": 140
     },
     {
-        "pattern": "\\s*and\\s*very"
+        "pattern": "\\s*whatever\\s*you\\s*have\\s*will\\s*do",
+        "status": 0,
+        "id": 141
     },
     {
-        "pattern": "\\s*whatever\\s*you\\s*have\\s*will\\s*do"
+        "pattern": "\\s*store",
+        "status": 0,
+        "id": 142
     },
     {
-        "pattern": "\\s*store"
+        "pattern": "\\s*siphon",
+        "status": 0,
+        "id": 143
     },
     {
-        "pattern": "\\s*siphon"
+        "pattern": "\\s*and\\s*keep\\s*theasurement",
+        "status": 0,
+        "id": 144
     },
     {
-        "pattern": "\\s*and\\s*keep\\s*theasurement"
+        "pattern": "\\s*which\\s*will\\s*reveal\\s*all\\s*its\\s*",
+        "status": 0,
+        "id": 145
     },
     {
-        "pattern": "\\s*which\\s*will\\s*reveal\\s*all\\s*its\\s*"
+        "pattern": "\\s*otherwise",
+        "status": 0,
+        "id": 146
     },
     {
-        "pattern": "\\s*otherwise"
+        "pattern": "\\s*failing\\s*that",
+        "status": 0,
+        "id": 147
     },
     {
-        "pattern": "\\s*failing\\s*that"
+        "pattern": "\\s*bring\\s*second\\s*in\\s*case",
+        "status": 0,
+        "id": 148
     },
     {
-        "pattern": "\\s*bring\\s*second\\s*in\\s*case"
+        "pattern": "\\s*desired\\s*consistency",
+        "status": 0,
+        "id": 149
     },
     {
-        "pattern": "\\s*desired\\s*consistency"
+        "pattern": "\\s*size",
+        "status": 0,
+        "id": 150
     },
     {
-        "pattern": "\\s*size"
+        "pattern": "\\s*total",
+        "status": 0,
+        "id": 151
     },
     {
-        "pattern": "\\s*total"
+        "pattern": "\\s*left",
+        "status": 0,
+        "id": 152
     },
     {
-        "pattern": "\\s*left"
+        "pattern": "\\s*quick",
+        "status": 0,
+        "id": 153
     },
     {
-        "pattern": "\\s*quick"
+        "pattern": "\\s*of\\s*",
+        "status": 0,
+        "id": 154
     },
     {
-        "pattern": "\\s*\\.\\s*\\.\\s*\\.\\s*"
+        "pattern": "\\s*\\.\\s*\\.\\s*\\.\\s*",
+        "status": 0,
+        "id": 155
     },
     {
-        "pattern": "\\(\\s*\\,*\\s*\\.*\\)"
+        "pattern": "\\(\\s*\\,*\\s*\\.*\\)",
+        "status": 0,
+        "id": 156
     }
 ]

@@ -7,6 +7,7 @@ import sys
 sys.path.insert(1, 'G:\Code\Recipe Project\Stage_3_Database and Cleaning\Table_Organizer\Ingredient_processing')  # Replace '/path/to/directory' with the actual directory path
 
 from  process_ingredient import raw_translated_ingredient
+from step_4_measurements import check_portion
 
 # Convert list to string format
 def list_to_string(lst):
@@ -16,7 +17,7 @@ def word_counter_in_json(json_file, list_key):
     # Initialize an empty Counter object to store word counts
     word_counter = Counter()
     first_occurrence_ids = {}
-    processing_comparison_df = pd.DataFrame(columns=['Original_Word', 'Processed_Word', "modifiers", "measurements"])
+    processing_comparison_df = pd.DataFrame(columns=['status', 'Original_Word', 'Processed_Word', "modifiers", "measurements"])
     # Open the JSON file and process each line (each line is a JSON object)
     count = 0
     with open(json_file, 'r') as f:
@@ -29,16 +30,23 @@ def word_counter_in_json(json_file, list_key):
                 # Iterate through each item in the list
                 for item in data[list_key]:
                     # Check if the item is a string
-                    item_break_down = raw_translated_ingredient(item, False)
-                    if len(item_break_down) > 0 :
-                        fmo, fme, text, mod_hash, name, portion, mpis, ignore_this = item_break_down[0]
-                        #print("modifiers:", fmo,", measurements:", fme)
+                    item_break_down_current = raw_translated_ingredient(item, False, False)
+                    item_break_down_new = raw_translated_ingredient(item, False, True)
+                    if len(item_break_down_current) > 0 :
+                        fmo, fme, text, mod_hash, name, portion, mpis, ignore_this = item_break_down_current[0]
                         list_of_Ingredients = [t[0] for t in fme]
+                        """
+                        print("modifiers:", fmo,", measurements:", fme)
                         print(list_of_Ingredients)
                         print(list_to_string(list_of_Ingredients))
-                        #processing_comparison_df.loc[len(processing_comparison_df)]  = {'Original_Word': item, 'Processed_Word': text, "modifiers:": fmo,", measurements:": list_of_Ingredients}
-                        processing_comparison_df.loc[len(processing_comparison_df)]  = {'Original_Word': item, 'Processed_Word': text, "modifiers": list_to_string(fmo), "measurements": str(list_to_string(list_of_Ingredients))}
-                        #processing_comparison_df.loc[len(processing_comparison_df)]  = {'Original_Word': item, 'Processed_Word': text}
+                        """
+                        
+                        processing_comparison_df.loc[len(processing_comparison_df)]  = {'status':"0", 'Original_Word': item, 'Processed_Word': text, "modifiers": list_to_string(fmo), "measurements": str(list_to_string(list_of_Ingredients))}
+                        
+                        fmo, fme, text, mod_hash, name, portion, mpis, ignore_this = item_break_down_new[0]
+                        list_of_Ingredients = [t[0] for t in fme]
+                        processing_comparison_df.loc[len(processing_comparison_df)]  = {'status': "1", 'Original_Word': item, 'Processed_Word': text, "modifiers": list_to_string(fmo), "measurements": str(list_to_string(list_of_Ingredients))}
+                        
                         item = text
                         #print(item)
                     else:
@@ -56,7 +64,7 @@ def word_counter_in_json(json_file, list_key):
                                 first_occurrence_ids[word] = data['id']
                         """
             count = count + 1
-            if count > 1:
+            if count > 2:
                 break
 
     # Convert the Counter object to a DataFrame
@@ -77,7 +85,6 @@ def filter_word(word_df, filter_word):
     filtered_df = word_df[word_df['Original_Word'].str.contains(filter_word)].copy()
 
     return filtered_df
-
 
 def filter_patterns_based_on_strings(df_patterns, df_strings, pattern_column, string_column):
     # Extract regex patterns from df_patterns
@@ -107,9 +114,8 @@ def filter_patterns_based_on_strings(df_patterns, df_strings, pattern_column, st
     
     return filtered_df
 
-
-
 def filter_individual_names(names_df, processing_df, name_column, processing_column):
+
     # Collect all unique modifiers from the processing_comparison_df
     all_modifiers = set()
     for modifiers in processing_df[processing_column]:
@@ -119,3 +125,32 @@ def filter_individual_names(names_df, processing_df, name_column, processing_col
     # Filter the individual names DataFrame based on the collected modifiers
     filtered_df = names_df[names_df[name_column].isin(all_modifiers)]
     return filtered_df
+
+def apply_regex_patterns(value, patterns):
+    """
+    Apply a list of regex patterns to a value and return the altered version if there is a match.
+    
+    Args:
+        value (str): The input string to be altered.
+        patterns (list): A list of regex patterns (either single patterns or lists of patterns).
+    
+    Returns:
+        str: The altered version of the input string.
+    """
+    original_value = value
+    
+    if isinstance(patterns, list):
+        print("5a list ")
+        for sub_pattern in patterns:
+            print("5a sub pattern", sub_pattern)
+            print("5a sub value  ", original_value)
+            has_pattern, value, proportion = check_portion(sub_pattern, original_value)
+    else:
+        print("5a not list ")
+        has_pattern, value, proportion = check_portion(patterns, original_value)
+    
+    # Check if the value was altered
+    if value != original_value:
+        return value
+    else:
+        return None

@@ -4,7 +4,7 @@ import re
 
 
 
-def load_patterns_from_json(filename):
+def load_patterns_from_json(filename, test_status):
     with open(filename, 'r') as json_file:
         patterns_data = json.load(json_file)
     if not isinstance(patterns_data, list):
@@ -14,15 +14,18 @@ def load_patterns_from_json(filename):
     for entry in patterns_data:
         name = entry.get("name")
         pattern = entry.get("pattern")
-        if not name or not pattern:
-            raise ValueError("Invalid entry in JSON data: {}".format(entry))
-        if isinstance(pattern, list):
-            patterns_dict[name] = pattern
-        else:
-            patterns_dict[name] = [pattern]
+        status = entry.get("status")
+
+        if (test_status == True and status != 1) or (test_status == False and status == 0) :
+        
+            if not name or not pattern:
+                raise ValueError("Invalid entry in JSON data: {}".format(entry))
+            if isinstance(pattern, list):
+                patterns_dict[name] = pattern
+            else:
+                patterns_dict[name] = [pattern]
     
     return patterns_dict
-
 
 def is_element_in_tuple(my_list, filter_name, portion):
 
@@ -44,13 +47,13 @@ def is_element_in_tuple(my_list, filter_name, portion):
     return False
 
 
-def find_measurement(text, filename):
+def find_measurement(text, filename, test_status):
     
     cauhgt_values = []
     cleaned_text = text
     fiter_type = ""
     filter_redundant = True
-    measurement_patterns = load_patterns_from_json(filename)
+    measurement_patterns = load_patterns_from_json(filename, test_status)
     while filter_redundant:
         current_modifier = True
         for filter_name, filter in measurement_patterns.items():

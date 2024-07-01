@@ -1,8 +1,10 @@
 import json
+from turtle import pd
 
 useless = False
 modifier =False
-measurements =True
+measurements =False
+add_status = True
 
 def useless_patterns_to_json(patterns, filename):
     json_data = [{"pattern": pattern} for pattern in patterns]
@@ -22,11 +24,31 @@ def measurements_to_json(patterns, filename):
     with open(filename, 'w') as json_file:
         json.dump(json_data, json_file, indent=4)
 
-if useless:
+def add_status_column(json_file_path):
+    """
+    Add a 'status' column with a default value of zero to a DataFrame loaded from a JSON file, 
+    and then save the updated DataFrame back to the JSON file.
     
+    Args:
+        json_file_path (str): The path to the JSON file.
+    """
+    with open(json_file_path, 'r') as file:
+        data = json.load(file)
+    
+    # Add the 'status' field to each JSON object
+    counter = 0
+    for item in data:
+        item['status'] = 0
+        item['id'] = counter
+        counter = counter + 1
+    
+    # Write the updated data back to the JSON file
+    with open(json_file_path, 'w') as file:
+        json.dump(data, file, indent=4)
 
-    # Example usage:
 
+
+if useless:
     combined_patterns = [
 
             r"\s*dish\(es\)",
@@ -275,8 +297,6 @@ if useless:
     useless_patterns_to_json(combined_patterns, "useless_patterns.json")
 
 if modifier:
-
-
     modifier_patterns = {
         #General can be added anywhere so not specific enoguh 
 
@@ -1140,7 +1160,6 @@ if modifier:
     }
     modifier_patterns_to_json(modifier_patterns, "modifier_patterns.json")
 
-
 if measurements:
     measurement_patterns = {
         #must be before cups
@@ -1358,7 +1377,13 @@ if measurements:
     }
     measurements_to_json(measurement_patterns, "measurement_patterns")
 
+if add_status:
+    
+    json_files = ['measurement_patterns.json', 'modifier_patterns.json', 'useless.json']  # Replace with your actual file names
 
+    for file in json_files:
+        add_status_column(file)
+    
     
 
 

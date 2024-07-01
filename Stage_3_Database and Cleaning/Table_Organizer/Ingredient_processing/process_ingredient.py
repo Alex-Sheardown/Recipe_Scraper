@@ -13,7 +13,7 @@ def stage_print(text, show_data, test_name):
         stage_count = stage_count + 1
 
 stage_count = 0
-def raw_translated_ingredient(text, show_data):
+def raw_translated_ingredient(text, show_data, test_status):
     #print("I made it")
     
     patterns_filename = "G:\Code\Recipe Project\Stage_3_Database and Cleaning\Table_Organizer\\regex_holder\\"
@@ -27,7 +27,7 @@ def raw_translated_ingredient(text, show_data):
     text = process_measurement(text)
     stage_print(text,show_data,"process_measurement")
 
-    text = remove_unnecessary_data(text, patterns_filename + "useless.json")
+    text = remove_unnecessary_data(text, patterns_filename + "useless.json", test_status)
     stage_print(text,show_data,"remove_unnecessary_data")
 
     result_list = []
@@ -40,13 +40,13 @@ def raw_translated_ingredient(text, show_data):
 
 
     last_meausurement = ""
-    summary_modifier, text = find_modifier(text, patterns_filename + "modifier_patterns.json")
+    summary_modifier, text = find_modifier(text, patterns_filename + "modifier_patterns.json", test_status)
     empty_text = False
     found_measurements_list_total = []
     for text in text_list:
-        found_modifier, text = find_modifier(text, patterns_filename + "modifier_patterns.json")
+        found_modifier, text = find_modifier(text, patterns_filename + "modifier_patterns.json", test_status)
         stage_print(text,show_data, "find_modifier")
-        found_measurements, cleaned_text = find_measurement(text, patterns_filename + "measurement_patterns.json")
+        found_measurements, cleaned_text = find_measurement(text, patterns_filename + "measurement_patterns.json", test_status)
         cleaned_text = extract_repeated_word_or_original(cleaned_text)
         print(len(found_measurements))
         if len(found_measurements) != 0:
@@ -66,10 +66,10 @@ def raw_translated_ingredient(text, show_data):
         stage_count = 5
         ignore_this = False
 
-        found_modifier, text = find_modifier(text, patterns_filename + "modifier_patterns.json")
+        found_modifier, text = find_modifier(text, patterns_filename + "modifier_patterns.json", test_status)
         stage_print(text,show_data, "find_modifier in list")
         
-        found_measurements, cleaned_text = find_measurement(text, patterns_filename + "measurement_patterns.json")
+        found_measurements, cleaned_text = find_measurement(text, patterns_filename + "measurement_patterns.json", test_status)
         stage_print(found_measurements,show_data, "find_measurement in list")
         stage_print(cleaned_text,show_data, "find_measurement in list")
 

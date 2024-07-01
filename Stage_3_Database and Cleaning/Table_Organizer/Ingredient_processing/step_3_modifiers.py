@@ -10,7 +10,7 @@ def load_patterns_from_json(filename):
         patterns_data = json.load(json_file)
     return patterns_data
 
-def find_modifier(text, patterns_filename):
+def find_modifier(text, patterns_filename, test_status):
     caught_values = []
     cleaned_text = text
     found_modifier = False
@@ -19,9 +19,11 @@ def find_modifier(text, patterns_filename):
     for pattern_entry in modifier_patterns:
         filter_name = pattern_entry["name"]
         pattern = pattern_entry["pattern"]
-        found_modifier, cleaned_text = check_modifier(pattern, cleaned_text)
-        if found_modifier:
-            caught_values.append(filter_name)
+        status = pattern_entry["status"]
+        if (test_status == True and status != 1) or (test_status == False and status == 0) :
+            found_modifier, cleaned_text = check_modifier(pattern, cleaned_text)
+            if found_modifier:
+                caught_values.append(filter_name)
     
     return caught_values, cleaned_text
 

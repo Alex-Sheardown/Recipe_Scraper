@@ -1,11 +1,15 @@
 [
     {
         "name": "tea_cups",
-        "pattern": "\\btea\\*cups?\\b"
+        "pattern": "\\btea\\*cups?\\b",
+        "status": 0,
+        "id": 0
     },
     {
         "name": "coffee_cup",
-        "pattern": "\\s*coffee\\s*cup"
+        "pattern": "\\s*coffee\\s*cup",
+        "status": 0,
+        "id": 1
     },
     {
         "name": "table_spoons",
@@ -29,7 +33,9 @@
             "(\\s*tbsp\\s*o\\s*ons)\\b",
             "(\\s*table\\s*spoonss\\s*ful)\\b",
             "(\\s*t\\s*b\\s*spoon\\s*s)\\b"
-        ]
+        ],
+        "status": 0,
+        "id": 2
     },
     {
         "name": "tea_spoons",
@@ -57,30 +63,42 @@
             "\\s*(?:t\\s*spoonsful)\\b",
             "\\s*(?:tsp\\s*s\\s*p\\s*s)\\b",
             "\\s*(?:t\\.spoonsful)\\b"
-        ]
+        ],
+        "status": 0,
+        "id": 3
     },
     {
         "name": "fluid_ounces",
         "pattern": [
             "(?:fl(?:\\.|uid)?[\\s_]*oz|fluid[\\s_]*ounce)\\b",
             "\\s*(?:fluid\\s*ounces)\\b"
-        ]
+        ],
+        "status": 0,
+        "id": 4
     },
     {
         "name": "ounces",
-        "pattern": "\\b(?:ounce|oz(?:\\.|s)?)\\b"
+        "pattern": "\\b(?:ounce|oz(?:\\.|s)?)\\b",
+        "status": 0,
+        "id": 5
     },
     {
         "name": "cups",
-        "pattern": "\\b[cC]\\s*(ups?)?\\.?\\b"
+        "pattern": "\\b[cC]\\s*(ups?)?\\.?\\b",
+        "status": 0,
+        "id": 6
     },
     {
         "name": "quarts",
-        "pattern": "\\bqu?a?r?ts?\\b"
+        "pattern": "\\bqu?a?r?ts?\\b",
+        "status": 0,
+        "id": 7
     },
     {
         "name": "pints",
-        "pattern": "\\b(?:pint|pt)s?\\.?(?:\\s|$)"
+        "pattern": "\\b(?:pint|pt)s?\\.?(?:\\s|$)",
+        "status": 0,
+        "id": 8
     },
     {
         "name": "gallons",
@@ -88,7 +106,9 @@
             "\\b(gallon|gal)[\\s_]*(?:n(?:\\.|s)?)?\\b",
             "\\b(gallons|gals)[\\s_]*(?:n(?:\\.|s)?)?\\b",
             "\\bgals\\.\\b"
-        ]
+        ],
+        "status": 0,
+        "id": 9
     },
     {
         "name": "lbs",
@@ -97,7 +117,9 @@
             "lbs\\b",
             "lbs\\.\\b",
             "pounds\\b"
-        ]
+        ],
+        "status": 0,
+        "id": 10
     },
     {
         "name": "milli_liters",
@@ -107,346 +129,518 @@
             "\\bml\\b",
             "\\bmls\\b",
             "\\bmls\\.\\b"
-        ]
+        ],
+        "status": 0,
+        "id": 11
     },
     {
         "name": "kilo_grams",
-        "pattern": "\\b(kilo\\s*grams?|kilos?|kgs?)\\b"
+        "pattern": "\\b(kilo\\s*grams?|kilos?|kgs?)\\b",
+        "status": 0,
+        "id": 12
     },
     {
         "name": "grams",
-        "pattern": "\\b(grams?|g\\.?s?)\\b"
+        "pattern": "\\b(grams?|g\\.?s?)\\b",
+        "status": 0,
+        "id": 13
     },
     {
         "name": "liter",
-        "pattern": "\\b(liters?|ls?|l\\.s|ls\\.)\\b"
+        "pattern": "\\b(liters?|ls?|l\\.s|ls\\.)\\b",
+        "status": 0,
+        "id": 14
     },
     {
         "name": "drops",
-        "pattern": "\\b(drops?)\\b"
+        "pattern": "\\b(drops?)\\b",
+        "status": 0,
+        "id": 15
     },
     {
         "name": "dashes",
-        "pattern": "\\b(dash(?:es)?)\\b"
+        "pattern": "\\b(dash(?:es)?)\\b",
+        "status": 0,
+        "id": 16
     },
     {
         "name": "dabs",
-        "pattern": "\\b(dabs?)\\b"
+        "pattern": "\\b(dabs?)\\b",
+        "status": 0,
+        "id": 17
     },
     {
         "name": "deciliter",
-        "pattern": "\\b(dls?|deciliters?)\\b"
+        "pattern": "\\b(dls?|deciliters?)\\b",
+        "status": 0,
+        "id": 18
     },
     {
         "name": "squeezes",
-        "pattern": "\\bsqueezes?\\b"
+        "pattern": "\\bsqueezes?\\b",
+        "status": 0,
+        "id": 19
     },
     {
         "name": "cloves",
-        "pattern": "\\bcloves?\\b"
+        "pattern": "\\bcloves?\\b",
+        "status": 0,
+        "id": 20
     },
     {
         "name": "sprigs",
-        "pattern": "\\bsprigs?\\b"
+        "pattern": "\\bsprigs?\\b",
+        "status": 0,
+        "id": 21
     },
     {
         "name": "handfuls",
-        "pattern": "\\bhandfuls?\\b"
+        "pattern": "\\bhandfuls?\\b",
+        "status": 0,
+        "id": 22
     },
     {
         "name": "bunches",
-        "pattern": "\\bbunche?s?\\b"
+        "pattern": "\\bbunche?s?\\b",
+        "status": 0,
+        "id": 23
     },
     {
         "name": "pinches",
-        "pattern": "\\bpinche?s?-?\\s*"
+        "pattern": "\\bpinche?s?-?\\s*",
+        "status": 0,
+        "id": 24
     },
     {
         "name": "pats",
-        "pattern": "\\bpats?\\b"
+        "pattern": "\\bpats?\\b",
+        "status": 0,
+        "id": 25
     },
     {
         "name": "pieces",
-        "pattern": "\\bpieces?\\b"
+        "pattern": "\\bpieces?\\b",
+        "status": 0,
+        "id": 26
     },
     {
         "name": "little",
-        "pattern": "\\b(little|littles)\\b"
+        "pattern": "\\b(little|littles)\\b",
+        "status": 0,
+        "id": 27
     },
     {
         "name": "knobs",
-        "pattern": "\\b(knob|knobs)\\b"
+        "pattern": "\\b(knob|knobs)\\b",
+        "status": 0,
+        "id": 28
     },
     {
         "name": "bits",
-        "pattern": "\\b(bit|bits)\\b"
+        "pattern": "\\b(bit|bits)\\b",
+        "status": 0,
+        "id": 29
     },
     {
         "name": "centiliters",
-        "pattern": "\\b(cls?|centiliters?)\\b"
+        "pattern": "\\b(cls?|centiliters?)\\b",
+        "status": 0,
+        "id": 30
     },
     {
         "name": "slices",
-        "pattern": "\\s*slices?\\b"
+        "pattern": "\\s*slices?\\b",
+        "status": 0,
+        "id": 31
     },
     {
         "name": "cans",
-        "pattern": "\\b(can|cans)\\b"
+        "pattern": "\\b(can|cans)\\b",
+        "status": 0,
+        "id": 32
     },
     {
         "name": "drop_glasses",
-        "pattern": "\\b(drop glasses|drop glass)\\b"
+        "pattern": "\\b(drop glasses|drop glass)\\b",
+        "status": 0,
+        "id": 33
     },
     {
         "name": "glass",
-        "pattern": "\\bglass(es)?"
+        "pattern": "\\bglass(es)?",
+        "status": 0,
+        "id": 34
     },
     {
         "name": "jars",
-        "pattern": "\\b(jars?)\\b"
+        "pattern": "\\b(jars?)\\b",
+        "status": 0,
+        "id": 35
     },
     {
         "name": "nests",
-        "pattern": "\\bnests?\\b"
+        "pattern": "\\bnests?\\b",
+        "status": 0,
+        "id": 36
     },
     {
         "name": "no.s",
-        "pattern": "\\bno(\\.?\\b|\u00b0)\\s*"
+        "pattern": "\\bno(\\.?\\b|\u00b0)\\s*",
+        "status": 0,
+        "id": 37
     },
     {
         "name": "pots",
-        "pattern": "\\bpots?\\b"
+        "pattern": "\\bpots?\\b",
+        "status": 0,
+        "id": 38
     },
     {
         "name": "servings",
-        "pattern": "\\bservings?\\b"
+        "pattern": "\\bservings?\\b",
+        "status": 0,
+        "id": 39
     },
     {
         "name": "stalks",
-        "pattern": "\\bstalks?\\b"
+        "pattern": "\\bstalks?\\b",
+        "status": 0,
+        "id": 40
     },
     {
         "name": "sticks",
-        "pattern": "\\bsticks?\\b"
+        "pattern": "\\bsticks?\\b",
+        "status": 0,
+        "id": 41
     },
     {
         "name": "logs",
-        "pattern": "\\blogs?\\b"
+        "pattern": "\\blogs?\\b",
+        "status": 0,
+        "id": 42
     },
     {
         "name": "kilos",
-        "pattern": "\\b(kilos?|kilograms?)\\b"
+        "pattern": "\\b(kilos?|kilograms?)\\b",
+        "status": 0,
+        "id": 43
     },
     {
         "name": "sheets",
-        "pattern": "\\bsheets?\\b"
+        "pattern": "\\bsheets?\\b",
+        "status": 0,
+        "id": 44
     },
     {
         "name": "strips",
-        "pattern": "\\bstrips?\\b"
+        "pattern": "\\bstrips?\\b",
+        "status": 0,
+        "id": 45
     },
     {
         "name": "bricks",
-        "pattern": "\\bbricks?\\b"
+        "pattern": "\\bbricks?\\b",
+        "status": 0,
+        "id": 46
     },
     {
         "name": "diams",
-        "pattern": "\\b(in)?\\s*diameters?\\b"
+        "pattern": "\\b(in)?\\s*diameters?\\b",
+        "status": 0,
+        "id": 47
     },
     {
         "name": "heights",
-        "pattern": "\\b(in)?\\s*height\\s*"
+        "pattern": "\\b(in)?\\s*height\\s*",
+        "status": 0,
+        "id": 48
     },
     {
         "name": "tiles",
-        "pattern": "\\btiles?\\b"
+        "pattern": "\\btiles?\\b",
+        "status": 0,
+        "id": 49
     },
     {
         "name": "somes",
-        "pattern": "\\bsome\\b"
+        "pattern": "\\bsome\\b",
+        "status": 0,
+        "id": 50
     },
     {
         "name": "punnets",
-        "pattern": "\\bpunnets?\\b"
+        "pattern": "\\bpunnets?\\b",
+        "status": 0,
+        "id": 51
     },
     {
         "name": "pkgs",
-        "pattern": "\\b(doy)?\\s*(pkgs?|packages?|packets?|packs?)\\b"
+        "pattern": "\\b(doy)?\\s*(pkgs?|packages?|packets?|packs?)\\b",
+        "status": 0,
+        "id": 52
     },
     {
         "name": "qqs",
-        "pattern": "\\b(qq|quintals?)\\b"
+        "pattern": "\\b(qq|quintals?)\\b",
+        "status": 0,
+        "id": 53
     },
     {
         "name": "times",
-        "pattern": "\\btimes?\\b"
+        "pattern": "\\btimes?\\b",
+        "status": 0,
+        "id": 54
     },
     {
         "name": "inchs",
-        "pattern": "\\s*-?(inches|inch)\\b"
+        "pattern": "\\s*-?(inches|inch)\\b",
+        "status": 0,
+        "id": 55
     },
     {
         "name": "xs",
-        "pattern": "\\bx\\b"
+        "pattern": "\\bx\\b",
+        "status": 0,
+        "id": 56
     },
     {
         "name": "atyts",
-        "pattern": "\\b(according to taste| Balance the flavors| according to your taste| according to your taste preferences | Adjust the sweetness of the sauce according to taste| according to taste | adjusting the tanginess according to your taste)\\b"
+        "pattern": "\\b(according to taste| Balance the flavors| according to your taste| according to your taste preferences | Adjust the sweetness of the sauce according to taste| according to taste | adjusting the tanginess according to your taste)\\b",
+        "status": 0,
+        "id": 57
     },
     {
         "name": "vls",
-        "pattern": "\\bvery\\blittle\\b"
+        "pattern": "\\bvery\\blittle\\b",
+        "status": 0,
+        "id": 58
     },
     {
         "name": "cms",
-        "pattern": "\\s*-?(cm|centimeters?)\\b"
+        "pattern": "\\s*-?(cm|centimeters?)\\b",
+        "status": 0,
+        "id": 59
     },
     {
         "name": "per_persons",
-        "pattern": "\\s*(for\\s*(each\\s*)?person|per\\s*persons?)\\s*"
+        "pattern": "\\s*(for\\s*(each\\s*)?person|per\\s*persons?)\\s*",
+        "status": 0,
+        "id": 60
     },
     {
         "name": "heaping_spoonfuls",
-        "pattern": "\\s*heaping\\s*spoonfuls?\\b"
+        "pattern": "\\s*heaping\\s*spoonfuls?\\b",
+        "status": 0,
+        "id": 61
     },
     {
         "name": "bags",
-        "pattern": "\\bbags?\\b"
+        "pattern": "\\bbags?\\b",
+        "status": 0,
+        "id": 62
     },
     {
         "name": "boxes",
-        "pattern": "\\bboxe?s?\\b"
+        "pattern": "\\bboxe?s?\\b",
+        "status": 0,
+        "id": 63
     },
     {
         "name": "heaped",
-        "pattern": "\\bheaped\\b"
+        "pattern": "\\bheaped\\b",
+        "status": 0,
+        "id": 64
     },
     {
         "name": "bowl",
-        "pattern": "\\s*bowl\\s*of\\b"
+        "pattern": "\\s*bowl\\s*of\\b",
+        "status": 0,
+        "id": 65
     },
     {
         "name": "base",
-        "pattern": "\\s*base\\s*of\\b"
+        "pattern": "\\s*base\\s*of\\b",
+        "status": 0,
+        "id": 66
     },
     {
         "name": "block",
-        "pattern": "\\s*block\\s*of\\b"
+        "pattern": "\\s*block\\s*of\\b",
+        "status": 0,
+        "id": 67
     },
     {
         "name": "bottle",
-        "pattern": "\\s*bottles?\\b"
+        "pattern": "\\s*bottles?\\b",
+        "status": 0,
+        "id": 68
     },
     {
         "name": "branches",
-        "pattern": "\\s*branche?s?\\b"
+        "pattern": "\\s*branche?s?\\b",
+        "status": 0,
+        "id": 69
     },
     {
         "name": "tablets",
-        "pattern": "\\s*tablets?\\b"
+        "pattern": "\\s*tablets?\\b",
+        "status": 0,
+        "id": 70
     },
     {
         "name": "carton",
-        "pattern": "\\s*carton\\b"
+        "pattern": "\\s*carton\\b",
+        "status": 0,
+        "id": 71
     },
     {
         "name": "puree",
-        "pattern": "\\s*puree\\b"
+        "pattern": "\\s*puree\\b",
+        "status": 0,
+        "id": 72
     },
     {
         "name": "grain",
-        "pattern": "\\s*gr\\b"
+        "pattern": "\\s*gr\\b",
+        "status": 0,
+        "id": 73
     },
     {
         "name": "percent_fat",
-        "pattern": "\\s*percent\\s*fat"
+        "pattern": "\\s*percent\\s*fat",
+        "status": 0,
+        "id": 74
     },
     {
         "name": "percent",
-        "pattern": "\\s*percent"
+        "pattern": "\\s*percent",
+        "status": 0,
+        "id": 75
     },
     {
         "name": "piece",
-        "pattern": "\\s*piece\\b"
+        "pattern": "\\s*piece\\b",
+        "status": 0,
+        "id": 76
     },
     {
         "name": "container",
-        "pattern": "\\s*container\\b"
+        "pattern": "\\s*container\\b",
+        "status": 0,
+        "id": 77
     },
     {
         "name": "case",
-        "pattern": "\\s*case\\b"
+        "pattern": "\\s*case\\b",
+        "status": 0,
+        "id": 78
     },
     {
         "name": "carmine",
-        "pattern": "\\s*carmine\\b"
+        "pattern": "\\s*carmine\\b",
+        "status": 0,
+        "id": 79
     },
     {
         "name": "cork",
-        "pattern": "\\s*cork\\b"
+        "pattern": "\\s*cork\\b",
+        "status": 0,
+        "id": 80
     },
     {
         "name": "capsule",
-        "pattern": "\\s*capsule\\b"
+        "pattern": "\\s*capsule\\b",
+        "status": 0,
+        "id": 81
     },
     {
         "name": "drizzle",
-        "pattern": "\\s*drizzle\\b"
+        "pattern": "\\s*drizzle\\b",
+        "status": 0,
+        "id": 82
     },
     {
         "name": "dose",
-        "pattern": "\\s*dose\\b"
+        "pattern": "\\s*dose\\b",
+        "status": 0,
+        "id": 83
     },
     {
         "name": "blocks",
-        "pattern": "\\s*blocks"
+        "pattern": "\\s*blocks",
+        "status": 0,
+        "id": 84
     },
     {
         "name": "doses",
-        "pattern": "\\s*doses"
+        "pattern": "\\s*doses",
+        "status": 0,
+        "id": 85
     },
     {
         "name": "dices",
-        "pattern": "\\s*dices"
+        "pattern": "\\s*dices",
+        "status": 0,
+        "id": 86
     },
     {
         "name": "hint",
-        "pattern": "\\s*hint"
+        "pattern": "\\s*hint",
+        "status": 0,
+        "id": 87
     },
     {
         "name": "head",
-        "pattern": "\\s*heads?\\b"
+        "pattern": "\\s*heads?\\b",
+        "status": 0,
+        "id": 88
     },
     {
         "name": "knife_tip",
-        "pattern": "\\s*knife\\s*tip"
+        "pattern": "\\s*knife\\s*tip",
+        "status": 0,
+        "id": 89
     },
     {
         "name": "ladle",
-        "pattern": "\\s*ladle(ful)?"
+        "pattern": "\\s*ladle(ful)?",
+        "status": 0,
+        "id": 90
     },
     {
         "name": "measure",
-        "pattern": "\\s*measure"
+        "pattern": "\\s*measure",
+        "status": 0,
+        "id": 91
     },
     {
         "name": "plate",
-        "pattern": "\\s*plate"
+        "pattern": "\\s*plate",
+        "status": 0,
+        "id": 92
     },
     {
         "name": "turns_mill",
-        "pattern": "\\s*turns\\s*(mill)?"
+        "pattern": "\\s*turns\\s*(mill)?",
+        "status": 0,
+        "id": 93
     },
     {
         "name": "quantity",
-        "pattern": "\\s*quantity"
+        "pattern": "\\s*quantity",
+        "status": 0,
+        "id": 94
     },
     {
         "name": "sachet",
-        "pattern": "\\s*sachet"
+        "pattern": "\\s*sachet",
+        "status": 0,
+        "id": 95
     },
     {
         "name": "self_count",
-        "pattern": "\\b"
+        "pattern": "\\b",
+        "status": 0,
+        "id": 96
     }
 ]
