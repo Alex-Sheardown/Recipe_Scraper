@@ -100,7 +100,7 @@ class WelcomeWindow(tk.Tk):
         self.general_column = int(((width-90)/4))
 
         self.font_size = 9
-        self.button_width = int(((self.general_column /2)/self.font_size))
+        self.button_width = int((((self.general_column+150) /3)/self.font_size))
         self.button_height = 5
 
         self.sub_row = int((11*(self.general_row)/12)/6)
@@ -126,12 +126,18 @@ class WelcomeWindow(tk.Tk):
         self.df3 = self.json_to_dataframe(patterns_filename + "useless.json")
         self.df3a = self.df3[self.df3['status'] == 0]
         self.df3b = self.df3[self.df3['status'] != 0]
+        self.current_df3a = self.df3a
+        self.current_df3b = self.df3b
         self.df4 = self.json_to_dataframe(patterns_filename + "modifier_patterns.json")
         self.df4a = self.df4[self.df4['status'] == 0]
         self.df4b = self.df4[self.df4['status'] != 0]
+        self.current_df4a = self.df4a
+        self.current_df4b = self.df4b
         self.df5 = self.json_to_dataframe(patterns_filename + "measurement_patterns.json")
         self.df5a = self.df5[self.df5['status'] == 0]
         self.df5b = self.df5[self.df5['status'] != 0]
+        self.current_df5a = self.df5a
+        self.current_df5b = self.df5b
         self.df5 = self.df5.sort_values(by='name')
 
 
@@ -185,20 +191,25 @@ class WelcomeWindow(tk.Tk):
         #main text processor
         
         self.third_frame = tk.Frame(self.second_frame)
-        self.third_frame.grid(row=0, column=6, columnspan=4, sticky='nsew')
+        self.third_frame.grid(row=0, column=6, columnspan=2, sticky='nsew')
         
         self.third_frame.rowconfigure(0, minsize=int((1*self.general_row)/12), weight=1)
         self.third_frame.rowconfigure(1, minsize=self.sub_row, weight=1)
 
+        
+
         #Basic Buttons
         self.third_frame_choice = tk.Frame(self.third_frame)
         self.third_frame_choice.grid(row=0, column=0, sticky='nsew')
-        self.third_frame_choice.columnconfigure([0,1], minsize=self.general_column /2, weight=1)
+        self.third_frame_choice.columnconfigure([0,1,2], minsize=self.general_column /3, weight=1)
 
         self.search_button = tk.Button(self.third_frame_choice, width=self.button_width, font=("Arial", self.font_size), text="Search",  height=self.button_height, command=self.search)
         self.search_button.grid(row=0, column=0, sticky='new')
         self.development_button = tk.Button(self.third_frame_choice, width=self.button_width,font=("Arial", self.font_size), text="Development",  height=self.button_height, command=self.build)
         self.development_button.grid(row=0, column=1, sticky='new')
+
+        self.development_button = tk.Button(self.third_frame_choice, width=self.button_width,font=("Arial", self.font_size), text="Options",  height=self.button_height, command=self.build)
+        self.development_button.grid(row=0, column=2, sticky='new')
 
         self.third_frame_build()
         self.third_frame_build_frame.grid_forget()
@@ -209,7 +220,7 @@ class WelcomeWindow(tk.Tk):
     def third_frame_build(self):
         #Drop box 1, 0 
         self.third_frame_build_frame = tk.Frame(self.third_frame)
-        self.third_frame_build_frame.grid(row=1, column=0, sticky='new')
+        self.third_frame_build_frame.grid(row=1, column=0, columnspan=2, sticky='new')
         self.third_frame_build_frame.rowconfigure([0,1,2,3,4,5], minsize=int(self.sub_row/6), weight=1) 
 
         self.label2 = tk.Label(self.third_frame_build_frame, text="File:", font=("Arial", 20))
@@ -262,7 +273,7 @@ class WelcomeWindow(tk.Tk):
     def third_frame_search(self):
         #Drop box 1, 0 
         self.third_frame_search_frame = tk.Frame(self.third_frame)
-        self.third_frame_search_frame.grid(row=1, column=0, sticky='new')
+        self.third_frame_search_frame.grid(row=1, column=0, columnspan=2, sticky='new')
         self.third_frame_search_frame.rowconfigure([0,1,2], minsize=int(self.sub_row/3), weight=1)                               
        
 
@@ -280,10 +291,13 @@ class WelcomeWindow(tk.Tk):
         self.label2 = tk.Label(self.third_frame_drop_box, text="Column  :", font=("Arial", 20))
         self.label2.grid(row=1, column=0, sticky="w", padx=0, pady=5)
 
-        self.label3 = tk.Label(self.third_frame_drop_box, text="Entry   :", font=("Arial", 20))
+        self.label3 = tk.Label(self.third_frame_drop_box, text="Type  :", font=("Arial", 20))
         self.label3.grid(row=2, column=0, sticky="w", padx=0, pady=5)
 
-        self.columns_drop_down = ["Count", "Compare", "Irrelevant", "Modifiers", "Metrics"]
+        self.label3 = tk.Label(self.third_frame_drop_box, text="Search  :", font=("Arial", 20))
+        self.label3.grid(row=3, column=0, sticky="w", padx=0, pady=5)
+
+        self.columns_drop_down = ["Count", "Compare", "Irrelevant Current", "Irrelevant Test", "Modifiers Current", "Modifiers Test", "Metrics Current", "Metrics Test"]
         self.dropdown1 = ttk.Combobox(self.third_frame_drop_box,  font=("Arial", 14), values=self.columns_drop_down)
         self.dropdown1.grid(row=0, column=1, padx=5, pady=5, sticky="we")
         self.dropdown1.bind("<<ComboboxSelected>>", self.update_dropdown2)
@@ -291,21 +305,20 @@ class WelcomeWindow(tk.Tk):
        
         self.dropdown2 = ttk.Combobox(self.third_frame_drop_box,  font=("Arial", 14))
         self.dropdown2.grid(row=1, column=1, padx=5, pady=5, sticky="we")
+
+        self.columns_drop_down2 = ["inner", "left", "reset"]
+        self.dropdown4 = ttk.Combobox(self.third_frame_drop_box,  font=("Arial", 14), values=self.columns_drop_down2)
+        self.dropdown4.grid(row=2, column=1, padx=5, pady=5, sticky="we")
         
 
         # Create search box
-        """
-        self.search_box = tk.Entry(self.third_frame_search_frame, font=("Arial", 15))
-        self.search_box.grid(row=1, column=0, padx=5, pady=5, sticky="new")
-        """
-
         self.search_box = tk.Entry(self.third_frame_drop_box, font=("Arial", 14))
-        self.search_box.grid(row=2, column=1, padx=5, pady=5, sticky="we")
+        self.search_box.grid(row=3, column=1, padx=5, pady=5, sticky="we")
 
    
-        # Create buttons 3, 0
+        # Create buttons 4, 0
         self.third_frame_end_buttons = tk.Frame(self.third_frame_search_frame)
-        self.third_frame_end_buttons.grid(row=2, column=0, padx=5, pady=5, sticky="nsew")
+        self.third_frame_end_buttons.grid(row=4, column=0, padx=5, pady=5, sticky="nsew")
         self.third_frame_end_buttons.columnconfigure([0,1], minsize=int(self.general_column /2), weight=1)
 
         self.search_button = tk.Button(self.third_frame_end_buttons, text="Search", font=("Arial", 15), command=self.search1)
@@ -313,7 +326,13 @@ class WelcomeWindow(tk.Tk):
 
         self.clear_button = tk.Button(self.third_frame_end_buttons, text="Reset",  font=("Arial", 15), command=self.reset)
         self.clear_button.grid(row=0, column=1, padx=5, pady=5, sticky="ew")
-     
+
+        self.cb_value = IntVar()
+        self.checkbutton = ttk.Checkbutton(self.third_frame_end_buttons,  variable=self.cb_value, onvalue=1, offvalue=0, text="Click Filter")
+        self.checkbutton.grid(row=1, column=1, columnspan=2, padx=5, pady=5, sticky="nesw")
+        self.checkbutton.invoke()
+        print(self.cb_value.get())
+       
     def update_dropdown2(self, event):
         selected_column = self.dropdown1.get()
         if selected_column == "word count": 
@@ -332,6 +351,9 @@ class WelcomeWindow(tk.Tk):
             options = self.df5# ["Option 1", "Option 2", "Option 3"]  # Sample options based on selected column
             self.dropdown2.config(values=options) 
 
+    def third_frame_options(self):
+        x = 0
+
     #Changes top right hand corner view for the search and build
     def build(self):
         print("Build button clicked")
@@ -339,6 +361,11 @@ class WelcomeWindow(tk.Tk):
         self.third_frame_build_frame.grid()
 
     def search(self):
+        print("Search button clicked")
+        self.third_frame_build_frame.grid_forget()
+        self.third_frame_search_frame.grid(sticky="new")
+
+    def option(self):
         print("Search button clicked")
         self.third_frame_build_frame.grid_forget()
         self.third_frame_search_frame.grid(sticky="new")
@@ -445,7 +472,8 @@ class WelcomeWindow(tk.Tk):
 
                 #Update Regex
                 self.regex_developer(value, 0)
-                self.fill_in_regex()
+                if self.cb_value.get():
+                    self.fill_in_regex(0, "")
                 #Update Regex Broad visual
             
                 first_entry = self.current_df2.iloc[0]['Original_Word']
@@ -465,26 +493,55 @@ class WelcomeWindow(tk.Tk):
             processed_string = "modifiers:  " + str(fmo) + ",\nmeasurements:   " + str(fme) + ",\ntext:   " + str(text) + ",\nhash: " + str(mod_hash) + ",\nname:  " +  str(name) + ",\nportion:  " + str(portion) + ",\nmulti_part_ingredient_status:  " + str(mpis) + ",\nignore this:  " + str(ignore_this) + "\n\n"
             self.text_box.insert(tk.END, processed_string)
 
-    def fill_in_regex(self):
+    def fill_in_regex(self, option, value):
+        self.current_df3a= ""
+        self.current_df3b= ""
+        self.current_df4a= ""
+        self.current_df4b= ""
+        self.current_df5a= ""
+        self.current_df5b= ""
+        if option == 3:
+            self.current_df3a = value
+        else:
+            self.current_df3a = filter_patterns_based_on_strings(self.df3a, self.current_df2, 'pattern', 'Original_Word')
 
-        self.current_df3a = filter_patterns_based_on_strings(self.df3a, self.current_df2, 'pattern', 'Original_Word')
-        self.current_df3b = filter_patterns_based_on_strings(self.df3b, self.current_df2, 'pattern', 'Original_Word')
+        if option == 4:
+            self.current_df3b = value
+        else:
+            self.current_df3b = filter_patterns_based_on_strings(self.df3b, self.current_df2, 'pattern', 'Original_Word')
+        
         self.tree3a, self.scrollbar3a = self.populate_treeview(self.current_df3a, 1, 0, self.second_frame, self.general_column)
         self.tree3b, self.scrollbar3b = self.populate_treeview(self.current_df3b, 2, 0, self.second_frame, self.general_column)
         self.tree3a.bind('<ButtonRelease-1>', self.on_double_click_table_3a)
         self.tree3b.bind('<ButtonRelease-1>', self.on_double_click_table_3b)
 
         #Modifier
-        self.current_df4a = filter_individual_names(self.df4a, self.current_df2, "name", "modifiers")
-        self.current_df4b = filter_individual_names(self.df4b, self.current_df2, "name", "modifiers")
+        if option == 5:
+            self.current_df4a = value
+        else:
+            self.current_df4a = filter_individual_names(self.df4a, self.current_df2, "name", "modifiers")
+
+        if option == 6:
+            self.current_df4b = value
+        else:
+            self.current_df4b = filter_individual_names(self.df4b, self.current_df2, "name", "modifiers")
+            
         self.tree4a, self.scrollbar4a = self.populate_treeview(self.current_df4a, 1, 2, self.second_frame, self.general_column )
         self.tree4b, self.scrollbar4b = self.populate_treeview(self.current_df4b, 2, 2, self.second_frame, self.general_column )
         self.tree4a.bind('<ButtonRelease-1>', self.on_double_click_table_4a)
         self.tree4b.bind('<ButtonRelease-1>', self.on_double_click_table_4b)
                 
         #Pattern
-        self.current_df5a = filter_individual_names(self.df5a, self.current_df2, "name", "measurements")
-        self.current_df5b = filter_individual_names(self.df5b, self.current_df2, "name", "measurements")
+        if option == 7:
+            self.current_df5a = value
+        else:
+            self.current_df5a = filter_individual_names(self.df5a, self.current_df2, "name", "measurements")
+            
+        if option == 8:
+            self.current_df5b = value
+        else:
+            self.current_df5b = filter_individual_names(self.df5b, self.current_df2, "name", "measurements")
+            
         self.tree5a, self.scrollbar5a = self.populate_treeview(self.current_df5a, 1, 4, self.second_frame,self.general_column )
         self.tree5b, self.scrollbar5b = self.populate_treeview(self.current_df5b, 2, 4, self.second_frame,self.general_column )
         self.tree5a.bind('<ButtonRelease-1>', self.on_double_click_table_5a)
@@ -544,7 +601,9 @@ class WelcomeWindow(tk.Tk):
         self.summary_box(item_data[1], test_status)
         #Left off here!
         self.regex_developer(item_data, 2)
-        self.fill_in_regex()
+        if self.cb_value.get():
+            print("check box:", self.cb_value.get())
+            self.fill_in_regex(0, "")
     #Table 3's single click function for the word
     def on_double_click_table_3a(self, event):
         item_data = self.retrieve_row(self.tree3a)
@@ -678,25 +737,86 @@ class WelcomeWindow(tk.Tk):
         except:
             print("empty")
         
-        self.fill_in_regex()
+        if self.cb_value.get():
+            print("check box:", self.cb_value.get())
+            self.fill_in_regex(0, "")
+
+    def filter_dataframe_by_search(self):
+        #["Count", "Compare", "Irrelevant Current", "Irrelevant Test", "Modifiers Current", "Modifiers Test", "Metrics Current", "Metrics Test"]
+        file_name = self.dropdown1.get()
+        if file_name == "Count":
+            df = self.filtering(self.df)
+            return 1, self.merge_dataframes(self.df, df)
+        elif file_name == "Compare":
+            df = self.filtering(self.df)
+            return 2, self.merge_dataframes(self.current_df2, df)
+        elif file_name == "Irrelevant Current":
+            df = self.filtering(self.df)
+            return 3, self.merge_dataframes(self.current_df3a, df)
+        elif file_name == "Irrelevant Test":
+            df = self.filtering(self.df)
+            return 4, self.merge_dataframes(self.current_df3b, df)
+        elif file_name == "Modifiers Current":
+            df = self.filtering(self.df)
+            return 5, self.merge_dataframes(self.current_df4a, df)
+        elif file_name == "Modifiers Test":
+            df = self.filtering(self.df)
+            return 6, self.merge_dataframes(self.current_df4b, df)
+        elif file_name == "Metrics Current":
+            df = self.filtering(self.df)
+            return 7, self.merge_dataframes(self.current_df5a, df)
+        elif file_name == "Metrics Test":
+            df = self.filtering(self.df)
+            return 8, self.merge_dataframes(self.current_df5b, df)
+            
+    def filtering(self, df):
+        #v1 = self.dropdown1.get()
+        v2 = self.dropdown2.get()
+        v4 = self.search_box.get()
+        print( "D2:", v2, "E1:", v4)
+
+        search_term = v4.lower()
+        filtered_df = df[df[v2].str.lower().str.contains(search_term, na=False)]
+       
+        
+        if filtered_df:
+            print("Search Results:")
+            print(filtered_df)
+            return filtered_df
+        else:
+            print("No matches found.")
+            return pd.DataFrame()
+
+    def merge_dataframes(self, dfa, dfb):
+        merge_type = self.dropdown4.get()
+        merge_column = self.dropdown2.get()
+
+        if merge_column and merge_column in dfa.columns and merge_column in dfb.columns:
+            if merge_type == "inner":
+                result_df = pd.merge(dfa, dfb, on=merge_column, how='inner')
+            elif merge_type == "outer":
+                result_df = pd.merge(dfa, dfb, on=merge_column, how='outer')
+            elif merge_type == "left":
+                result_df = pd.merge(dfa, dfb, on=merge_column, how='left')
+            elif merge_type == "right":
+                result_df = pd.merge(dfa, dfb, on=merge_column, how='right')
+            else:
+                result_df = dfb()
+            
+            print("Merge Results:")
+            print(result_df)
+            return result_df
 
     def search1(self):
         print("Search button clicked")
-        v1 = self.dropdown1.get()
-        v2 = self.dropdown2.get()
-        v3 = self.search_box.get()
-        print("D1:", v1, "D2:", v2, "SB:", v3)
+        type, df = self.filter_dataframe_by_search()
+        self.fill_in_regex(type, df)
 
-
-        
-        
     def run(self):
         print("run button clicked")
         
-
     def save(self):
         print("save button clicked")
-
 
     def reset(self):
         self.dropdown1.current(0)
@@ -730,10 +850,18 @@ class WelcomeWindow(tk.Tk):
         self.tree5b.bind('<ButtonRelease-1>', self.on_double_click_table_5b)
         print("reset button clicked")
 
+
+     
+        self.current_df3a = self.df3a
+        self.current_df3b = self.df3b
+        self.current_df4a = self.df4a
+        self.current_df4b = self.df4b
+        self.current_df5a = self.df5a
+        self.current_df5b = self.df5b
+
     def revert(self):
         print("revert button clicked")
     
-
     def filter_id(self, word_df, filter_id):
         # Filter the DataFrame based on whether the original word contains the filter word
         filtered_df = word_df[word_df['ID'] == int(filter_id)].copy()
